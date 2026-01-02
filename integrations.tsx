@@ -125,6 +125,7 @@ export default function Integrations() {
                   {/* Content */}
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
+                      <span className="font-semibold text-foreground truncate text-sm">{integration.name}</span>
                       {integration.verified && (
                         <div className="w-3.5 h-3.5 rounded-full bg-[#3b82f6] flex items-center justify-center shrink-0">
                           <svg className="w-2 h-2 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -136,7 +137,6 @@ export default function Integrations() {
                           </svg>
                         </div>
                       )}
-                      <span className="font-semibold text-foreground truncate text-sm">{integration.name}</span>
                     </div>
 
                     {/* Progress bar */}
