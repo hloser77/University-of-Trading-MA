@@ -7,9 +7,43 @@ import Image from "next/image"
 
 
 
+const MarqueeItem = () => {
+  const [copied, setCopied] = useState(false)
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("HLoser")
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }
+
+  return (
+    <motion.button
+      onClick={handleCopy}
+      className="inline-flex items-center gap-2 px-8 py-2 mx-2 text-sm font-semibold rounded-full transition-colors relative group"
+      whileHover={{ scale: 1.05, backgroundColor: "rgba(0,0,0,0.05)" }}
+      whileTap={{ scale: 0.95 }}
+      animate={copied ? { backgroundColor: "#dcfce7" } : { backgroundColor: "transparent" }}
+    >
+      <span className="text-xl">🎉</span>
+      <span className="text-black">Use Code</span>
+      <span
+        className={`font-bold transition-colors ${copied ? "text-green-600" : "text-blue-600 group-hover:text-blue-700"}`}
+      >
+        <motion.span
+          initial={false}
+          animate={{ opacity: 1 }}
+          key={copied ? "copied" : "code"}
+        >
+          {copied ? '"Copied!"' : '"HLoser"'}
+        </motion.span>
+      </span>
+      <span className="text-black">– Get 20% OFF Your First Month</span>
+    </motion.button>
+  )
+}
+
 export default function Hero({ isLoaded = true }) {
   const [scrollY, setScrollY] = useState(0)
-  const [copied, setCopied] = useState(false)
   const controls = useAnimation()
 
   useEffect(() => {
@@ -26,12 +60,6 @@ export default function Hero({ isLoaded = true }) {
       controls.start("visible")
     }
   }, [isLoaded, controls])
-
-  const handleCopyCode = () => {
-    navigator.clipboard.writeText("HLoser")
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
-  }
 
   // Animation variants - Fixed typing issues
   const containerVariants = {
@@ -128,20 +156,6 @@ export default function Hero({ isLoaded = true }) {
 
   return (
     <section id="home" className="relative min-h-screen pt-20 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#dce1e8]/30 to-white overflow-hidden">
-      {/* Toast Notification */}
-      {copied && (
-        <motion.div
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -50 }}
-          className="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-2"
-        >
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-          </svg>
-          Code copied to clipboard!
-        </motion.div>
-      )}
       
       {/* Coupon Banner with Auto-Scrolling Marquee */}
       <motion.div
@@ -189,17 +203,7 @@ export default function Hero({ isLoaded = true }) {
               }}
             >
               {[...Array(10)].map((_, i) => (
-                <div key={i} className="inline-flex items-center gap-2 px-8 text-sm font-semibold">
-                  <span>🎉</span>
-                  <span className="text-black">Use Code</span>
-                  <button
-                    onClick={handleCopyCode}
-                    className="text-blue-600 font-bold hover:text-blue-800 hover:underline cursor-pointer transition-colors"
-                  >
-                    "HLoser"
-                  </button>
-                  <span className="text-black">– Get 20% OFF Your First Month</span>
-                </div>
+                <MarqueeItem key={i} />
               ))}
             </motion.div>
           </div>

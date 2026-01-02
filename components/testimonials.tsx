@@ -10,7 +10,7 @@ const testimonials = [
     title: "Loubna",
     content: "صراحة الخدمة زوينة بزاف ⭐⭐⭐⭐⭐، كل نهار كنوصلني فرص واضحة والشرح ساهل",
     rating: 5,
-    image: "",
+    image: "https://images.pexels.com/photos/33515385/pexels-photo-33515385.jpeg?cs=srgb&dl=pexels-achi-murusidze-2064615248-33515385.jpg&fm=jpg",
   },
   {
     title: "Ayoub",
@@ -23,7 +23,7 @@ const testimonials = [
     title: "Ilyass Fatih",
     content: "محتوى يومي، دعم فالتفكير، وخدمة محترمة بزاف. شكراً على الالتزام والاحترافية!",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/da63nggkh/image/upload/v1767382619/premium_photo-1689568126014-06fea9d5d341_ntvse7.jpg",
   },
   {
     title: "Hamza",
@@ -214,7 +214,7 @@ export default function Testimonials() {
                       alt={testimonials[currentIndex].title}
                       width={40}
                       height={40}
-                      className="rounded-full object-cover shrink-0"
+                      className="rounded-full object-cover shrink-0 aspect-square"
                       loading="lazy"
                     />
                   ) : (
@@ -298,7 +298,7 @@ export default function Testimonials() {
                         alt={testimonial.title}
                         width={40}
                         height={40}
-                        className="rounded-full object-cover shrink-0"
+                        className="rounded-full object-cover shrink-0 aspect-square"
                         loading="lazy"
                       />
                     ) : (
