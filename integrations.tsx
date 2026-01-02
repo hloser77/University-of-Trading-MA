@@ -57,7 +57,7 @@ export default function Integrations() {
             initial={{ opacity: 0, x: -50 }}
             animate={isVisible ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
             transition={{ duration: 0.7 }}
-            className="space-y-6"
+            className="space-y-6 text-center lg:text-left"
           >
             <div className="inline-block">
               <span className="px-4 py-2 rounded-full bg-secondary text-foreground text-sm font-semibold">
@@ -73,13 +73,14 @@ export default function Integrations() {
               Access Lathyrus Trading content seamlessly through everyday apps.
             </p>
 
-            <motion.button
+            <motion.a
+              href="/#plans"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-gradient-to-r from-accent to-accent-dark text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
+              className="inline-block px-8 py-3 bg-gradient-to-r from-accent to-primary text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
             >
               Get Started Now
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           {/* Right Side - Infinite Scrolling Integration Cards */}
