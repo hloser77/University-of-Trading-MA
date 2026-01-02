@@ -5,12 +5,12 @@ import { motion } from "framer-motion"
 
 const integrations = [
   {
-    name: "Discord",
+    name: "YouTube",
     logo: "https://framerusercontent.com/images/cePyGd4qoBvYjjZ1jQxzX0AO4.svg?width=60&height=60",
     verified: true,
   },
   {
-    name: "YouTube",
+    name: "Discord",
     logo: "https://framerusercontent.com/images/M15fqYLnFAWcWK6Y7DXmxd5u0.svg?width=60&height=60",
     verified: true,
   },
