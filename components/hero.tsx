@@ -388,6 +388,7 @@ export default function Hero({ isLoaded = true }) {
                   duration: 5,
                   repeat: Infinity,
                   ease: "linear",
+                  delay: 2,
                 }}
                 style={{ backgroundSize: "200% 200%" }}
               />

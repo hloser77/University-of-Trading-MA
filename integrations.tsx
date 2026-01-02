@@ -49,8 +49,8 @@ export default function Integrations() {
   const duplicatedIntegrations = [...integrations, ...integrations, ...integrations]
 
   return (
-    <section id="integrations" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-      <div id="integrations-section" className="max-w-7xl mx-auto">
+    <section id="integrations" className="py-20 px-4 sm:px-6 lg:px-8">
+      <div id="integrations-section" className="max-w-5xl mx-auto bg-white dark:bg-card rounded-3xl p-8 md:p-12 shadow-xl border border-white/20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Content */}
           <motion.div
@@ -60,33 +60,33 @@ export default function Integrations() {
             className="space-y-6"
           >
             <div className="inline-block">
-              <span className="px-4 py-2 rounded-full bg-white border-2 border-accent/30 text-accent text-sm font-semibold">
+              <span className="px-4 py-2 rounded-full bg-secondary text-foreground text-sm font-semibold">
                 Integrations
               </span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               Seamless Integrations
             </h2>
 
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-base text-muted-foreground leading-relaxed">
               Access Lathyrus Trading content seamlessly through everyday apps.
             </p>
 
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-gradient-to-r from-accent to-primary  text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
+              className="px-8 py-3 bg-gradient-to-r from-accent to-accent-dark text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl"
             >
               Get Started Now
             </motion.button>
           </motion.div>
 
           {/* Right Side - Infinite Scrolling Integration Cards */}
-          <div className="relative h-[400px] overflow-hidden">
+          <div className="relative h-[350px] overflow-hidden rounded-2xl bg-secondary/50 p-4">
             {/* Gradient overlays for smooth fade effect */}
-            <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none" />
-            <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none" />
+            <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-secondary/50 to-transparent z-10 pointer-events-none" />
+            <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-secondary/50 to-transparent z-10 pointer-events-none" />
 
             {/* Scrolling container */}
             <motion.div
@@ -109,14 +109,14 @@ export default function Integrations() {
                   animate={isVisible ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
                   transition={{ duration: 0.5, delay: (index % integrations.length) * 0.1 }}
                   whileHover={{ scale: 1.02, x: -5 }}
-                  className="bg-background border border-border rounded-xl p-5 flex items-center gap-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+                  className="bg-background border border-border rounded-xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
                 >
                   {/* Logo */}
-                  <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-border">
+                  <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm border border-border">
                     <img
                       src={integration.logo}
                       alt={integration.name}
-                      className="w-7 h-7 object-contain"
+                      className="w-6 h-6 object-contain"
                       loading="lazy"
                     />
                   </div>
@@ -125,8 +125,8 @@ export default function Integrations() {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
                       {integration.verified && (
-                        <div className="w-4 h-4 rounded-full bg-[#3b82f6] flex items-center justify-center shrink-0">
-                          <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <div className="w-3.5 h-3.5 rounded-full bg-[#3b82f6] flex items-center justify-center shrink-0">
+                          <svg className="w-2 h-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path
                               fillRule="evenodd"
                               d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -135,11 +135,11 @@ export default function Integrations() {
                           </svg>
                         </div>
                       )}
-                      <span className="font-semibold text-foreground truncate">{integration.name}</span>
+                      <span className="font-semibold text-foreground truncate text-sm">{integration.name}</span>
                     </div>
 
                     {/* Progress bar */}
-                    <div className="mt-2 h-1.5 bg-secondary rounded-full overflow-hidden">
+                    <div className="mt-2 h-1 bg-secondary rounded-full overflow-hidden">
                       <motion.div
                         className="h-full bg-[#3b82f6]"
                         initial={{ width: "0%" }}
