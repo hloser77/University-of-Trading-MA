@@ -19,23 +19,48 @@ const certificates = [
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/da63nggkh/image/upload/v1764179201/WhatsApp_Image_2025-11-26_at_4.00.12_AM_3_cs5rhp.jpg",
+      "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767446442/Salma_Bennani_xxeqft.png",
     alt: "Student Certificate 3",
   },
   {
     id: 4,
-    image: "https://res.cloudinary.com/da63nggkh/image/upload/v1764180026/1_a1sup4.webp",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767446596/Screenshot_2026-01-03_at_14.22.48_zzhg5e.jpg",
     alt: "Student Certificate 4",
   },
   {
     id: 5,
-    image: "https://res.cloudinary.com/da63nggkh/image/upload/v1764180023/3_mkuc4g.webp",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767446278/Hind_Elidrissi_bgfelr.png",
     alt: "Student Certificate 5",
   },
   {
     id: 6,
-    image: "https://res.cloudinary.com/da63nggkh/image/upload/v1764180023/2_ugjt0x.webp",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767446477/mohamedmohamedtazitazi_qmzbmt.png",
     alt: "Student Certificate 6",
+  },
+  {
+    id: 7,
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767450225/saraelfassi_cxmtbq.png",
+    alt: "Student Certificate 7",
+  },
+  {
+    id: 7,
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767450225/saraelfassi_cxmtbq.png",
+    alt: "Student Certificate 7",
+  },
+  {
+    id: 8,
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767449261/meriembelkhayat_xjamxu.png",
+    alt: "Student Certificate 8",
+  },
+  {
+    id: 9,
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767446124/IMG_0460_l4pwsc.png",
+    alt: "Student Certificate 9",
+  },
+  {
+    id: 10,
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767448334/Zineb_Chraibi_y0hyla.png",
+    alt: "Student Certificate 10",
   },
 ]
 
