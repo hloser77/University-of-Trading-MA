@@ -85,6 +85,24 @@ const testimonials = [
     rating: 5,
     image: "",
   },
+  {
+    title: "Mehdi Sebti",
+    content: "الڤيديوهات قصار ولكن فيهم المعنى. ماكيضيعوش لي الوقت.",
+    rating: 5,
+    image: "",
+  },
+  {
+    title: "Mehdi Sebti",
+    content: "الڤيديوهات قصار ولكن فيهم المعنى. ماكيضيعوش لي الوقت.",
+    rating: 5,
+    image: "",
+  },
+  {
+    title: "Mehdi Sebti",
+    content: "الڤيديوهات قصار ولكن فيهم المعنى. ماكيضيعوش لي الوقت.",
+    rating: 5,
+    image: "",
+  },
 ]
 
 export default function Testimonials() {
