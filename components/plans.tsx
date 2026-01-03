@@ -44,7 +44,7 @@ const plans = [
   },
   {
     name: "3 Months",
-    price: "19",
+    price: "20",
     period: "/month",
     badge: "Value",
     description: "Master the market",
