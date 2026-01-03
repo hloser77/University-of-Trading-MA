@@ -19,7 +19,7 @@ const plans = [
       "Perfect for testing the full experience",
     ],
     cta: "Start Learning",
-    link: "https://whop.com/checkout/1JdBLyH2uYDknIfRKx-ytom-1oWE-9p3Z-RnkPinPjuGdG/",
+    link: "https://whop.com/checkout/plan_kiqNoqKnKESuY",
     popular: false,
   },
   {
@@ -40,7 +40,7 @@ const plans = [
     link: "https://whop.com/checkout/6lrV6wVi0c7caMFtPX-Szut-0ex1-g7ES-TjjaI5saP6m4/",
     popular: false,
     elite: true,
-    saving: "Save 15%",
+    saving: "Save 8%",
   },
   {
     name: "3 Months",
@@ -59,7 +59,7 @@ const plans = [
     cta: "Go Pro",
     link: "https://whop.com/checkout/ml9lCJBGzCUWos6Dn-5eRH-Jg0K-q3pM-xHedSiL1qPW0/",
     popular: true,
-    saving: "Save 18%",
+    saving: "Save 20%",
   },
   {
     name: "Free Community",
@@ -75,8 +75,8 @@ const plans = [
       "Access to general discussions",
       "A simple start before upgrading",
     ],
-    cta: "Join Free Telegram",
-    link: "https://t.me/+x7DoEIeaBEw1NzVk",
+    cta: "Join Free discord",
+    link: "https://whop.com/hl0ser",
     popular: false,
   },
 ]
