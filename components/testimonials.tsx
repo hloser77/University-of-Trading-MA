@@ -7,8 +7,8 @@ import NextImage from "next/image"
 
 const testimonials = [
   {
-    title: "Ahmed Fansouri",
-    content: "Honestly, this service is a game changer! بسباب الـ Daily ideas ديالك قدرت نفاليدي التست ديالي فقل من سيمانة. The analysis is super clean and very easy to follow for anyone looking for real results",
+    title: "Omar Saidi",
+    content: "I’ve been in so many groups, but this one is on another level. The daily trade ideas are just so clear and easy to execute, even if you’re busy. Thanks to your guidance and the weekly forecasts, I finally managed to secure a $2,400 payout today! It feels amazing to finally see some real profit after all the struggle. If you're serious about passing your funding and actually getting paid, don't sleep on this service. Big thanks bro! 🚀💪",
     rating: 5,
     image: "https://images.pexels.com/photos/33515385/pexels-photo-33515385.jpeg?cs=srgb&dl=pexels-achi-murusidze-2064615248-33515385.jpg&fm=jpg",
   },
@@ -44,12 +44,6 @@ const testimonials = [
     image: "",
   },
   {
-    title: "Ismail benabdekjalil",
-    content: "التواصل سريع والدعم كيتجاوب. ما كتضيعش نهار بلا جواب.",
-    rating: 5,
-    image: "",
-  },
-  {
     title: "Hamza Alaoui",
     content: "The ROI on this service is insane! خلصت الاشتراك ورجعتو أضعاف مضاعفة من أول صفقة. Your analysis is top tier and helped me pass my funding challenge in record time. Totally worth it!",
     rating: 5,
@@ -62,8 +56,8 @@ const testimonials = [
     image: "",
   },
   {
-    title: "Omar Saidi",
-    content: "I’ve been in so many groups, but this one is on another level. The daily trade ideas are just so clear and easy to execute, even if you’re busy. Thanks to your guidance and the weekly forecasts, I finally managed to secure a $2,400 payout today! It feels amazing to finally see some real profit after all the struggle. If you're serious about passing your funding and actually getting paid, don't sleep on this service. Big thanks bro! 🚀💪",
+    title: "Ahmed Mansouri",
+    content: "Honestly, this service is a game changer! بسباب الـ Daily ideas ديالك قدرت نفاليدي التست ديالي فقل من سيمانة. The analysis is super clean and very easy to follow for anyone looking for real results",
     rating: 5,
     image: "",
   },
