@@ -24,7 +24,7 @@ const plans = [
   },
   {
     name: "2 Months",
-    price: "22,5",
+    price: "23",
     period: "/month",
     badge: "Popular",
     description: "Accelerate growth",
@@ -44,7 +44,7 @@ const plans = [
   },
   {
     name: "3 Months",
-    price: "21,66",
+    price: "19",
     period: "/month",
     badge: "Value",
     description: "Master the market",
