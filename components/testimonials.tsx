@@ -71,7 +71,7 @@ const testimonials = [
     title: "Yassine Berrada",
     content: "Your 'How-To' videos are better than most paid courses out there. شرح مبسط وعملي كيعطيك الخلاصة ديال التداول. Just hit my payout target and I’m so thankful for this opportunity you gave us.",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532174/360_F_1357240730_5qwRRFPbwIS2URtqsDAdq05YKRN0LHMD_kup6fa.jpg",
   },
   {
     title: "Layla Amrani",
