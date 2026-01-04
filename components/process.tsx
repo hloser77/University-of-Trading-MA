@@ -7,28 +7,28 @@ const steps = [
   {
     number: "1",
     title: "Get Access",
-    description: "Right after joining, you’ll go through a smooth onboarding flow so you know exactly where to start and how to navigate the program.",
+    description: "Right after joining, you'll get instant access to our private community and dashboard. We’ll guide you through a smooth onboarding so you can start navigating our daily insights immediately.",
     step: "Step 1",
   },
   {
     number: "2",
     title: "Receive Insights",
     description:
-      "Access all lessons and start building a strong foundation. You’ll study the framework, watch step-by-step videos, and understand how the strategy works in real market environments.",
+      "Access daily trade ideas through exclusive videos. You won't just get signals—you'll watch step-by-step analysis to understand the framework behind every high-probability setup in the market.",
     step: "Step 2",
   },
   {
     number: "3",
     title: "Stay Connected",
     description:
-      "Learn in real-time through daily trade ideas, livestreams, and constant mentor feedback. You’ll never trade alone — support is available 24/7.",
+      "Join our 24/7 private chat with dedicated channels for every market. You'll never trade alone, as you'll get constant feedback and support from a community that speaks your language.",
     step: "Step 3",
   },
   {
     number: "4",
     title: " Grow Consistently",
     description:
-      "Apply what you’ve learned, track progress, and keep improving with weekly forecasts, ongoing updates, and a community evolving alongside you",
+      "Master the market with our weekly forecasts. Every weekend, we break down upcoming events and long-term views to ensure you stay ahead of the curve and grow your account steadily.",
     step: "Step 4",
   },
 ]
