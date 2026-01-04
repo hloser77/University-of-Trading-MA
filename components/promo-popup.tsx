@@ -89,9 +89,9 @@ export default function PromoPopup() {
                 >
                   Limited Offer.
                   <br />
-                  <span className="text-white/90">Trade with edge </span>
+                  <span className="text-white/90">Trade with edge scale </span>
                   <br />
-                  <span className="text-white/90">Scale your profits.</span>
+                  <span className="text-white/90">your profits.</span>
                   <span className="text-blue-400">.</span>
                 </motion.h2>
 
