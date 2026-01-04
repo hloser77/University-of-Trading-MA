@@ -49,7 +49,7 @@ const certificates = [
   },
   {
     id: 9,
-    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767446124/IMG_0460_l4pwsc.png",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767534850/IMG_0460_tcjxbs.jpg",
     alt: "Student Certificate 9",
   },
   {
