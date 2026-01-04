@@ -10,13 +10,13 @@ const testimonials = [
     title: "Omar Saidi",
     content: "I’ve been in so many groups, but this one is on another level. The daily trade ideas are just so clear and easy to execute, even if you’re busy. Thanks to your guidance and the weekly forecasts, I finally managed to secure a $2,400 payout today! It feels amazing to finally see some real profit after all the struggle. If you're serious about passing your funding and actually getting paid, don't sleep on this service. Big thanks bro! 🚀💪",
     rating: 5,
-    image: "https://images.pexels.com/photos/33515385/pexels-photo-33515385.jpeg?cs=srgb&dl=pexels-achi-murusidze-2064615248-33515385.jpg&fm=jpg",
+    image: "",
   },
   {
     title: "Salma Bennani",
     content: "Best investment I’ve ever made in my trading career. الخدمة ناضية بزاف، خصوصاً الـ Weekly Forecast لي كيعطيك الخريطة ديال السوق. I just received my first payout, thanks to your guidance brother!",
     rating: 5,
-    image: "https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.jpg?s=612x612&w=0&k=20&c=9zbG2-9fl741fbTWw5fNgcEEe4ll-JegrGlQQ6m54rg=",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532273/images_ewk8wa.jpg",
 
   },
   {
@@ -29,13 +29,13 @@ const testimonials = [
     title: "Hind Elidrissi",
     content: "Daily trade ideas are fire! 🔥 ديما كاينين فرص واعرين وكلشي مشروح فالفيديوهات. Since I joined, my win rate has increased significantly. Passing the funding test was just a matter of time with you.",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532392/images_1_lclmbm.jpg",
   },
   {
     title: "Mohamed Tazi",
     content: "Big thanks for the 24/7 support and the high-quality content. الكروب فيه ناس ناضيين والمعلومات لي كتبارطاجي نادرة. I successfully passed my test and I’m now managing a funded account comfortably.",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532342/141d097317cfdbbfbf193d398907ae22_yuqa9f.jpg",
   },
   {
     title: "Sara Elfassi",
@@ -47,19 +47,19 @@ const testimonials = [
     title: "Hamza Alaoui",
     content: "The ROI on this service is insane! خلصت الاشتراك ورجعتو أضعاف مضاعفة من أول صفقة. Your analysis is top tier and helped me pass my funding challenge in record time. Totally worth it!",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532365/88e34a0b78b1dde29b84845a3f83e144_hr1mxn.jpg",
   },
   {
     title: "Meriem Belkhayat",
     content: "A five-star service without any doubt! كلشي كاين هنا: التعليم، التوصيات، والكومينيطي الواعرة. I’m officially a funded trader today and I couldn’t have done it without your help. Thank you so much!",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532439/istockphoto-1490542759-2048x2048_yalafc.jpg",
   },
   {
     title: "Ahmed Mansouri",
     content: "Honestly, this service is a game changer! بسباب الـ Daily ideas ديالك قدرت نفاليدي التست ديالي فقل من سيمانة. The analysis is super clean and very easy to follow for anyone looking for real results",
     rating: 5,
-    image: "",
+    image: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1767532474/fad5e79954583ad50ccb3f16ee64f66d_ocs4wk.jpg",
   },
   {
     title: "Zineb Chraibi",
