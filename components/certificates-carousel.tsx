@@ -68,7 +68,7 @@ export default function CertificatesCarousel() {
     <section className="relative w-full bg-gradient-to-b from-background via-background to-background/50 py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Member Success Stories</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Members Success Stories</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Real results from our community: from passing challenges to consistent payouts
           </p>
