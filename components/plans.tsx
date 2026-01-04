@@ -76,7 +76,7 @@ const plans = [
       "A simple start before upgrading",
     ],
     cta: "Join Free discord",
-    link: "https://whop.com/hl0ser",
+    link: "whop.com/hl0ser/utm",
     popular: false,
   },
 ]
