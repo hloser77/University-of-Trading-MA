@@ -87,11 +87,11 @@ export default function PromoPopup() {
                   transition={{ delay: 0.3 }}
                   className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight"
                 >
-                  The best deals.
+                  Limited Offer.
                   <br />
-                  <span className="text-white/90">Only trusted prop</span>
+                  <span className="text-white/90">Trade with edge </span>
                   <br />
-                  <span className="text-white/90">firms</span>
+                  <span className="text-white/90">Scale your profits.</span>
                   <span className="text-blue-400">.</span>
                 </motion.h2>
 
