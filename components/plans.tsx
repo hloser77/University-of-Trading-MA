@@ -248,12 +248,12 @@ export default function PlansSection() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Private Community", desc: "24/7 access to expert traders and professionals" },
-              { title: "Daily Analysis", desc: "Real-time market insights and technical analysis" },
-              { title: "Livestream Sessions", desc: "Live trading and interactive Q&A with mentors" },
-              { title: "Video Library", desc: "100+ hours of comprehensive training content" },
-              { title: "Risk Management", desc: "Professional portfolio tools and strategies" },
-              { title: "Priority Support", desc: "Direct access to mentors and community leaders" },
+              { title: "Private Community", desc: "24/7 access to a network of serious traders and professionals" },
+              { title: "Daily Trade Ideas", desc: "Get exclusive daily videos with high-probability ICT setups and ideas" },
+              { title: "Weekly Forecast", desc: "Comprehensive weekend market outlooks to prepare for the week ahead" },
+              { title: "Video Library", desc: "Step-by-step training on market frameworks and advanced strategy execution" },
+              { title: "Risk Management", desc: "Learn how to protect your capital and manage trades like a funded pro" },
+              { title: "Priority Support", desc: "Direct access to mentors to answer your questions and refine your edge" },
             ].map((item, index) => (
               <div
                 key={item.title}
