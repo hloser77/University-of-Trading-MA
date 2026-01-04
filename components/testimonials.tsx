@@ -23,7 +23,7 @@ const testimonials = [
     title: "Youssef Alami",
     content: "What I love most is the 24/7 chat access, ديما كاين لي يجاوبك ويوجهك. The community is very supportive and the trade ideas are high probability. My trading account is finally in the green, l3az!",
     rating: 5,
-    image: "https://res.cloudinary.com/da63nggkh/image/upload/v1767382619/premium_photo-1689568126014-06fea9d5d341_ntvse7.jpg",
+    image: "",
   },
   {
     title: "Hind Elidrissi",
