@@ -66,11 +66,11 @@ export default function Integrations() {
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Seamless Integrations
+              Powered by UTM
             </h2>
 
             <p className="text-base text-muted-foreground leading-relaxed">
-              Access Lathyrus Trading content seamlessly through everyday apps.
+              Access UTM resources and tools seamlessly through your favorite apps.
             </p>
 
             <motion.a
