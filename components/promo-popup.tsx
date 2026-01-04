@@ -87,7 +87,6 @@ export default function PromoPopup() {
                   transition={{ delay: 0.3 }}
                   className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight"
                 >
-                  Limited Offer.
                   <br />
                   <span className="text-white/90">Trade with edge scale </span>
                   <br />
@@ -102,7 +101,7 @@ export default function PromoPopup() {
                   transition={{ delay: 0.4 }}
                   className="text-white/70 text-base mb-8"
                 >
-                  All the expert trade ideas in one place
+                  Valid for your first month only
                 </motion.p>
 
                 {/* Promo Code Box */}
