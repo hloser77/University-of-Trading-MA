@@ -102,7 +102,7 @@ export default function PromoPopup() {
                   transition={{ delay: 0.4 }}
                   className="text-white/70 text-base mb-8"
                 >
-                  All the best available offers in one place
+                  All the expert trade ideas in one place
                 </motion.p>
 
                 {/* Promo Code Box */}
@@ -140,7 +140,7 @@ export default function PromoPopup() {
                   className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/30 rounded-xl px-6 py-4"
                 >
                   <p className="text-green-300 font-semibold text-lg">
-                    Get 20% OFF Your First Month
+                    Claim Your 20% Discount Now
                   </p>
                 </motion.div>
 
