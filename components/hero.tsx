@@ -34,7 +34,7 @@ const MarqueeItem = () => {
           animate={{ opacity: 1 }}
           key={copied ? "copied" : "code"}
         >
-          {copied ? '"Copied!"' : '"HLoser"'}
+          {copied ? '"Copied!"' : '"HLosssser"'}
         </motion.span>
       </span>
       <span className="text-black">– Get 20% OFF Your First Month</span>
