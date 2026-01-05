@@ -259,7 +259,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.3 }}
               >
                 <div 
-                  onClick={() => window.open('https://whop.com/loserict/reviews/', '_blank')}
+                  onClick={() => window.open('https://whop.com/hl0ser/universityoftradingma/', '_blank')}
                   className="bg-background rounded-xl p-8 border border-border hover:border-accent transition-all h-full flex flex-col group cursor-pointer"
                 >
                   {/* Rating */}
