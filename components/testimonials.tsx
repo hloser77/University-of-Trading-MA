@@ -173,7 +173,7 @@ export default function Testimonials() {
               className="w-[90%]"
             >
               <div 
-                onClick={() => window.open('https://whop.com/hl0ser/universityoftradingma/', '_blank')}
+                onClick={() => window.open('https://whop.com/loserict/reviews/', '_blank')}
                 className="bg-background rounded-xl p-8 border border-border min-h-[280px] flex flex-col cursor-pointer hover:border-accent transition-colors"
               >
                 {/* Rating */}
@@ -259,7 +259,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.3 }}
               >
                 <div 
-                  onClick={() => window.open('https://whop.com/hl0ser/universityoftradingma/', '_blank')}
+                  onClick={() => window.open('https://whop.com/loserict/reviews/', '_blank')}
                   className="bg-background rounded-xl p-8 border border-border hover:border-accent transition-all h-full flex flex-col group cursor-pointer"
                 >
                   {/* Rating */}
