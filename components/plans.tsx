@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 const plans = [
   {
     name: "1 Month",
-    price: "256",
+    price: "25",
     period: "/month",
     badge: "Starter",
     description: "Begin your journey",
