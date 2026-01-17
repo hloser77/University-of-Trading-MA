@@ -14,6 +14,7 @@ const plans = [
     features: [
       "Daily Forecasts",
       "Weekly & Monthly Forecasts",
+      "Standard Customer Support",
       "Weekly Entry Strategy Videos",
       "Daily Entry Breakdown Videos",
       "24/7 Group Chat Access",
@@ -34,6 +35,7 @@ const plans = [
     features: [
       "Daily Forecasts",
       "Weekly & Monthly Forecasts",
+      "Standard Customer Support",
       "Weekly Entry Strategy Videos",
       "Daily Entry Breakdown Videos",
       "24/7 Group Chat Access",
@@ -56,6 +58,7 @@ const plans = [
     features: [
       "Daily Forecasts",
       "Weekly & Monthly Forecasts",
+      "Standard Customer Support",
       "Weekly Entry Strategy Videos",
       "Daily Entry Breakdown Videos",
       "24/7 Group Chat Access",
