@@ -339,7 +339,7 @@ export default function Hero({ isLoaded = true }) {
               </div>
 
               <div className="text-left">
-                <p className="text-xs font-semibold text-black">97 Reviews</p>
+                <p className="text-xs font-semibold text-black">106 Reviews</p>
                 <p className="text-sm font-bold text-[#7a9898] flex items-center gap-1">
                   {"★★★★★".split("").map((star, i) => (
                     <motion.span
