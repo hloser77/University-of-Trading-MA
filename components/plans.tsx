@@ -1,6 +1,6 @@
 "use client"
 
-import { Check, Zap, Target, Rocket } from "lucide-react"
+import { Check, Zap, Target, Rocket, X } from "lucide-react"
 import { useEffect, useState } from "react"
 
 const plans = [
@@ -12,14 +12,14 @@ const plans = [
     description: "Begin your journey",
     icon: Target,
     features: [
-      "Daily Forecasts",
-      "Weekly & Monthly Forecasts",
-      "Standard Customer Support",
-      "Weekly Entry Strategy Videos",
-      "Daily Entry Breakdown Videos",
-      "24/7 Group Chat Access",
-      "Direct 1-on-1 Communication",
-      "Priority VIP Support",
+      { name: "Daily Forecasts", included: true },
+      { name: "Weekly & Monthly Forecasts", included: true },
+      { name: "Standard Customer Support", included: true },
+      { name: "Weekly Entry Strategy Videos", included: false },
+      { name: "Daily Entry Breakdown Videos", included: false },
+      { name: "24/7 Group Chat Access", included: false },
+      { name: "Direct 1-on-1 Communication", included: false },
+      { name: "Priority VIP Support", included: false },
     ],
     cta: "Try Starter",
     link: "https://whop.com/checkout/plan_kiqNoqKnKESuY",
@@ -33,14 +33,14 @@ const plans = [
     description: "Accelerate growth",
     icon: Zap,
     features: [
-      "Daily Forecasts",
-      "Weekly & Monthly Forecasts",
-      "Standard Customer Support",
-      "Weekly Entry Strategy Videos",
-      "Daily Entry Breakdown Videos",
-      "24/7 Group Chat Access",
-      "Direct 1-on-1 Communication",
-      "Priority VIP Support",
+      { name: "Daily Forecasts", included: true },
+      { name: "Weekly & Monthly Forecasts", included: true },
+      { name: "Standard Customer Support", included: true },
+      { name: "Weekly Entry Strategy Videos", included: true },
+      { name: "Daily Entry Breakdown Videos", included: false },
+      { name: "24/7 Group Chat Access", included: false },
+      { name: "Direct 1-on-1 Communication", included: false },
+      { name: "Priority VIP Support", included: false },
     ],
     cta: "Level Up",
     link: "https://whop.com/checkout/6lrV6wVi0c7caMFtPX-Szut-0ex1-g7ES-TjjaI5saP6m4/",
@@ -56,14 +56,14 @@ const plans = [
     description: "Master the market",
     icon: Zap,
     features: [
-      "Daily Forecasts",
-      "Weekly & Monthly Forecasts",
-      "Standard Customer Support",
-      "Weekly Entry Strategy Videos",
-      "Daily Entry Breakdown Videos",
-      "24/7 Group Chat Access",
-      "Direct 1-on-1 Communication",
-      "Priority VIP Support",
+      { name: "Daily Forecasts", included: true },
+      { name: "Weekly & Monthly Forecasts", included: true },
+      { name: "Standard Customer Support", included: true },
+      { name: "Weekly Entry Strategy Videos", included: true },
+      { name: "Daily Entry Breakdown Videos", included: true },
+      { name: "24/7 Group Chat Access", included: true },
+      { name: "Direct 1-on-1 Communication", included: true },
+      { name: "Priority VIP Support", included: true },
     ],
     cta: "Unlock Full Access",
     link: "https://whop.com/checkout/ml9lCJBGzCUWos6Dn-5eRH-Jg0K-q3pM-xHedSiL1qPW0/",
@@ -78,11 +78,11 @@ const plans = [
     description: "Join for free",
     icon: Rocket,
     features: [
-      "Basic market insights",
-      "Supportive community chat",
-      "Occasional market updates",
-      "Access to general discussions",
-      "A simple start before upgrading",
+      { name: "Basic market insights", included: true },
+      { name: "Supportive community chat", included: true },
+      { name: "Occasional market updates", included: true },
+      { name: "Access to general discussions", included: true },
+      { name: "A simple start before upgrading", included: true },
     ],
     cta: "Join Free discord",
     link: "https://whop.com/hl0ser/universityoftradingma/",
@@ -222,17 +222,27 @@ export default function PlansSection() {
                   {/* Features */}
                   <div className="space-y-3 flex-1">
                     {plan.features.map((feature) => (
-                      <div key={feature} className="flex items-start gap-3">
+                      <div key={feature.name} className={`flex items-start gap-3 ${!feature.included && "opacity-40"}`}>
                         <div
                           className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${
-                            plan.elite || plan.popular ? "bg-accent/20" : "bg-muted"
+                            feature.included
+                              ? plan.elite || plan.popular
+                                ? "bg-accent/20"
+                                : "bg-muted"
+                              : "bg-muted/10"
                           }`}
                         >
-                          <Check
-                            className={`w-3 h-3 ${plan.elite || plan.popular ? "text-accent" : "text-muted-foreground"}`}
-                          />
+                          {feature.included ? (
+                            <Check
+                              className={`w-3 h-3 ${plan.elite || plan.popular ? "text-accent" : "text-muted-foreground"}`}
+                            />
+                          ) : (
+                            <X className="w-3 h-3 text-muted-foreground/30" />
+                          )}
                         </div>
-                        <span className="text-foreground/90 text-sm leading-relaxed">{feature}</span>
+                        <span className={`text-sm leading-relaxed ${feature.included ? "text-foreground/90" : "text-muted-foreground"}`}>
+                          {feature.name}
+                        </span>
                       </div>
                     ))}
                   </div>
