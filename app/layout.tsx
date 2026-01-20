@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "SMC Maroc",
   ],
   openGraph: {
-    title: "TradeMorocco – ICT Trading Community Maroc",
+    title: "University of Trading MA",
     description:
       "Rejoignez la première communauté ICT Trading au Maroc. Groupe Telegram exclusif, analyses, éducation et communauté active.",
     url: "https://your-domain.com", // change to your real domain
