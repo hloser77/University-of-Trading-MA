@@ -37,7 +37,7 @@ const plans = [
       { name: "Weekly & Monthly Forecasts", included: true },
       { name: "Standard Customer Support", included: true },
       { name: "Weekly Entry Strategy Videos", included: true },
-      { name: "Daily Entry Breakdown Videos", included: false },
+      { name: "Daily Entry Breakdown Videos", included: true },
       { name: "24/7 Group Chat Access", included: false },
       { name: "Direct 1-on-1 Communication", included: false },
       { name: "Priority VIP Support", included: false },
