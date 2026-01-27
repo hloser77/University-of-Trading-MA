@@ -37,7 +37,7 @@ const MarqueeItem = () => {
           {copied ? '"Copied!"' : '"HLoser"'}
         </motion.span>
       </span>
-      <span className="text-black">– (Validuntil Jan 31)</span>
+      <span className="text-black">– (Valid until Jan 31)</span>
     </motion.button>
   )
 }
