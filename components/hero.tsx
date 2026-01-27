@@ -25,7 +25,7 @@ const MarqueeItem = () => {
       animate={copied ? { backgroundColor: "#dcfce7" } : { backgroundColor: "transparent" }}
     >
       <span className="text-xl">🎉</span>
-      <span className="text-black">Use Code</span>
+      <span className="text-black">ENDING SOON:Save 40% on your first month with code </span>
       <span
         className={`font-bold transition-colors ${copied ? "text-green-600" : "text-blue-600 group-hover:text-blue-700"}`}
       >
@@ -37,7 +37,7 @@ const MarqueeItem = () => {
           {copied ? '"Copied!"' : '"HLoser"'}
         </motion.span>
       </span>
-      <span className="text-black">– Get 20% OFF Your First Month</span>
+      <span className="text-black">– (Validuntil Jan 31)</span>
     </motion.button>
   )
 }
