@@ -118,7 +118,7 @@ export default function PromoPopup() {
                     <div className="flex flex-col items-center gap-0.5">
                       <span className="text-white/90 text-sm font-medium">Use code</span>
                       <div className="flex items-center gap-3">
-                        <span className="text-[#5eb3ff] font-bold text-2xl tracking-wide">jan40</span>
+                        <span className="text-[#5eb3ff] font-bold text-2xl tracking-wide">hloser</span>
                         <div className="flex items-center bg-[#5eb3ff]/20 p-1.5 rounded-lg">
                           {isCopied ? (
                             <Check className="w-5 h-5 text-[#5eb3ff]" />
