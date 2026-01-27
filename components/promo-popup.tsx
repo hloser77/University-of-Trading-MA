@@ -101,7 +101,7 @@ export default function PromoPopup() {
                   transition={{ delay: 0.4 }}
                   className="text-white/70 text-base mb-8"
                 >
-                  Valid for your first month only
+                  Offer ends January 31st.
                 </motion.p>
 
                 {/* Promo Code Box */}
@@ -118,7 +118,7 @@ export default function PromoPopup() {
                     <div className="flex flex-col items-center gap-0.5">
                       <span className="text-white/90 text-sm font-medium">Use code</span>
                       <div className="flex items-center gap-3">
-                        <span className="text-[#5eb3ff] font-bold text-2xl tracking-wide">HLoser</span>
+                        <span className="text-[#5eb3ff] font-bold text-2xl tracking-wide">jan40</span>
                         <div className="flex items-center bg-[#5eb3ff]/20 p-1.5 rounded-lg">
                           {isCopied ? (
                             <Check className="w-5 h-5 text-[#5eb3ff]" />
@@ -139,7 +139,7 @@ export default function PromoPopup() {
                   className="bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/30 rounded-xl px-6 py-4"
                 >
                   <p className="text-green-300 font-semibold text-lg">
-                    Claim Your 20% Discount Now
+                    Flash Sale: 40% OFF Your First Month!
                   </p>
                 </motion.div>
 
