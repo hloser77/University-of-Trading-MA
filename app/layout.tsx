@@ -95,7 +95,7 @@ export default function RootLayout({
       </head>
 
       <body className="font-sans antialiased">
-        <PromoPopup />
+        {/* <PromoPopup /> */}
         {children}
         <Analytics />
       </body>
