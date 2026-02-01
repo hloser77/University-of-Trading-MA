@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "University of Trading MA",
     description:
       "Rejoignez la première communauté ICT Trading au Maroc. Groupe Telegram exclusif, analyses, éducation et communauté active.",
-    url: "https://your-domain.com", // change to your real domain
+    url: "https://www.universityoftradingma.com", // change to your real domain
     type: "website",
     images: [
       {
@@ -53,9 +53,8 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://your-domain.com", // change to your domain
-  },
-  generator: "v0.app",
+    canonical: "https://www.universityoftradingma.com", 
+  }
 }
 
 export default function RootLayout({
@@ -80,15 +79,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "TradeMorocco",
-              url: "https://your-domain.com",
+              url: "https://www.universityoftradingma.com",
               logo:
                 "https://res.cloudinary.com/da63nggkh/image/upload/v1764725979/loogo_jkv9t3.png",
               description:
-                "Communauté ICT Trading au Maroc. Groupe Telegram trading, analyses, Smart Money Concepts et éducation.",
-              sameAs: [
-                "https://t.me/yourTelegramGroup",
-                "https://instagram.com/yourInstagram",
-              ],
+                "Communauté ICT Trading au Maroc. Groupe Telegram trading, analyses, Smart Money Concepts et éducation."
+             
             }),
           }}
         />
