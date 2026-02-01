@@ -190,7 +190,7 @@ export default function Hero({ isLoaded = true }) {
             /> */}
           
           {/* Auto-scrolling text container */}
-          <div className="relative z-10 overflow-hidden">
+          {/* <div className="relative z-10 overflow-hidden">
             <motion.div
               className="flex whitespace-nowrap"
               animate={{
@@ -208,7 +208,7 @@ export default function Hero({ isLoaded = true }) {
             </motion.div>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
 
       {/* Animated Background Elements */}
       <motion.div
