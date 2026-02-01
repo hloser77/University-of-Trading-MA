@@ -7,40 +7,40 @@ import Image from "next/image"
 
 
 
-const MarqueeItem = () => {
-  const [copied, setCopied] = useState(false)
+// const MarqueeItem = () => {
+//   const [copied, setCopied] = useState(false)
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText("HLoser")
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
-  }
+//   const handleCopy = () => {
+//     navigator.clipboard.writeText("HLoser")
+//     setCopied(true)
+//     setTimeout(() => setCopied(false), 2000)
+//   }
 
-  return (
-    <motion.button
-      onClick={handleCopy}
-      className="inline-flex items-center gap-2 px-8 py-2 mx-2 text-sm font-semibold rounded-full transition-colors relative group"
-      whileHover={{ scale: 1.05, backgroundColor: "rgba(0,0,0,0.05)" }}
-      whileTap={{ scale: 0.95 }}
-      animate={copied ? { backgroundColor: "#dcfce7" } : { backgroundColor: "transparent" }}
-    >
-      <span className="text-xl">🎉</span>
-      <span className="text-black">ENDING SOON:Save 40% on your first month with code </span>
-      <span
-        className={`font-bold transition-colors ${copied ? "text-green-600" : "text-blue-600 group-hover:text-blue-700"}`}
-      >
-        <motion.span
-          initial={false}
-          animate={{ opacity: 1 }}
-          key={copied ? "copied" : "code"}
-        >
-          {copied ? '"Copied!"' : '"HLoser"'}
-        </motion.span>
-      </span>
-      <span className="text-black">– (Valid until Jan 31)</span>
-    </motion.button>
-  )
-}
+//   return (
+//     <motion.button
+//       onClick={handleCopy}
+//       className="inline-flex items-center gap-2 px-8 py-2 mx-2 text-sm font-semibold rounded-full transition-colors relative group"
+//       whileHover={{ scale: 1.05, backgroundColor: "rgba(0,0,0,0.05)" }}
+//       whileTap={{ scale: 0.95 }}
+//       animate={copied ? { backgroundColor: "#dcfce7" } : { backgroundColor: "transparent" }}
+//     >
+//       <span className="text-xl">🎉</span>
+//       <span className="text-black">ENDING SOON:Save 40% on your first month with code </span>
+//       <span
+//         className={`font-bold transition-colors ${copied ? "text-green-600" : "text-blue-600 group-hover:text-blue-700"}`}
+//       >
+//         <motion.span
+//           initial={false}
+//           animate={{ opacity: 1 }}
+//           key={copied ? "copied" : "code"}
+//         >
+//           {copied ? '"Copied!"' : '"HLoser"'}
+//         </motion.span>
+//       </span>
+//       <span className="text-black">– (Valid until Jan 31)</span>
+//     </motion.button>
+//   )
+// }
 
 export default function Hero({ isLoaded = true }) {
   const [scrollY, setScrollY] = useState(0)
