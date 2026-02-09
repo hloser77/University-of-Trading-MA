@@ -94,7 +94,7 @@ Account Sharing: Your subscription is for your eyes only. Sharing Telegram links
           <div className="mt-10 pt-6 border-t border-gray-200">
             <h2 className="font-semibold text-lg mb-3 text-gray-900">Contact</h2>
             <p className="text-base text-gray-700">
-              For legal inquiries or support, contact:{" "}
+              For any legal inquiries or support questions, please reach out to us at:{" "}
               <a
                 href="mailto:support@universityoftradingma.com"
                 className="text-blue-600 underline hover:text-blue-800"
