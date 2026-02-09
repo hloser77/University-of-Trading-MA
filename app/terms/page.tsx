@@ -17,7 +17,7 @@ No Guarantees: U.T.M does not guarantee any specific profit or outcome. Your tra
     },
 
     {
-      title: "Intellectual Property: The Hloser Model & Content Protection",
+      title: "Intellectual Property: The (Hloser Model) & Content Protection",
       content: `Ownership: All materials, including the Hloser Model, the How-To video series, entry strategy breakdowns, and all weekly/daily forecast videos, are the exclusive intellectual property of University of Trading-MA.
 
 Limited License: Upon payment, you are granted a single, non-transferable license to view the content for your personal education only.
@@ -29,7 +29,7 @@ Consequences: Any breach of this section will result in an immediate permanent b
 
     {
       title: "Subscription, Payments, & Strict Non-Refundable Policy",
-      content: `Instant Access: Our service provides instant access to digital goods such as videos, chat, and market analysis.
+      content: `Instant Access: Our service provides instant access to digital goods such as (videos, chat, and market analysis) .
 
 Strict No-Refunds: Because our product is digital and consumed immediately upon access, all sales are final. No refunds will be issued under any circumstances, including dissatisfaction or accidental purchases.
 
@@ -40,30 +40,22 @@ Cancellation: You may cancel your subscription at any time to prevent future bil
       title: "Community Conduct & Discord Access",
       content: `Chat Access (24/7): Our chat groups are for professional discussion only. Any member engaging in harassment, spamming, or promoting other services will be removed immediately.
 
-Account Sharing: Your subscription is personal. Sharing Discord links or Whop login details will result in an automatic ban.`,
+Account Sharing: Your subscription is for your eyes only. Sharing Telegram links or Whop login details with others will result in an automatic system ban.`,
     },
 
     {
       title: "Non-Disclosure Agreement (NDA) & Confidentiality",
-      content: `By joining U.T.M, you agree to a strict Non-Disclosure Agreement.
-
-You must maintain full confidentiality regarding internal trading strategies, specific entry models (Hloser Model), and private member discussions.
-
-Sharing internal forecasts or confidential materials with third parties is a direct violation of this agreement.`,
+      content: `By joining U.T.M, you agree to a strict Non-Disclosure Agreement.You must maintain full confidentiality regarding internal trading strategies, specific entry models (Hloser Model), and private member discussions.Sharing internal forecasts or confidential materials with third parties is a direct violation of this agreement.`,
     },
 
     {
       title: "Service Modifications & Updates",
-      content: `U.T.M reserves the right to change, update, or discontinue any part of the service (including pricing, video content, or strategy updates) at any time without prior notice.
-
-We are not liable for any modification, suspension, or discontinuation of the service.`,
+      content: `U.T.M reserves the right to change, update, or discontinue any part of the service (including pricing, video content, or strategy updates) at any time without prior notice.We are not liable for any modification, suspension, or discontinuation of the service.`,
     },
 
     {
       title: "Governing Law & Dispute Resolution",
-      content: `These Terms shall be governed by the laws of Morocco and international digital commerce standards.
-
-Any dispute that cannot be resolved through support will be handled exclusively by the competent courts in the provider's jurisdiction.`,
+      content: `These Terms shall be governed by the laws of Morocco and international digital commerce standards.Any dispute that cannot be resolved through support will be handled exclusively by the competent courts in the provider's jurisdiction.`,
     },
   ]
 
