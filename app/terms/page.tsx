@@ -24,7 +24,7 @@ Limited License: Upon payment, you are granted a single, non-transferable licens
 
 Strict Prohibitions: You are forbidden from recording, downloading, screenshotting, or sharing any part of the Hloser Model or educational videos on social media, YouTube, or with non-members.
 
-Consequences: Any breach will result in an immediate permanent ban without a refund and may lead to legal action.`,
+Consequences: Any breach of this section will result in an immediate permanent ban without a refund and may lead to legal action for intellectual property theft.`,
     },
 
     {
