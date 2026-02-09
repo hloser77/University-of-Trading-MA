@@ -13,7 +13,7 @@ Not Financial Advice: We are not registered financial advisors. Nothing shared w
 
 Risk of Trading: Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You acknowledge that you can lose some or all of your capital.
 
-No Guarantees: U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.`,
+No Guarantees: "U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.",
     },
     {
       title: "Intellectual Property: The {Hloser Model} & Content Protection",
