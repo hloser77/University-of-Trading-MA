@@ -6,30 +6,38 @@ import Footer from "@/components/footer"
 export default function TermsOfService() {
   const sections = [
     {
-      title: "Subscription Suspension and Cancellation",
-      content: `If you subscribe to any paid features or premium services offered by U.T.M, we reserve the right to suspend or cancel your subscription at any time, without prior notice, and for any reason, including but not limited to violations of these Terms or failure to pay subscription fees.`,
+      title: "Comprehensive Financial & Educational Disclaimer",
+      content: `Educational Purpose Only: All content provided by U.T.M, including but not limited to the "Daily Trade Ideas," "Weekly Forecasts," and "Market Analysis," is strictly for educational and informational purposes
+      
+Not Financial Advice: We are not registered financial advisors. Nothing shared within the community or on the website constitutes professional investment, financial, or trading advice
+
+Risk of Trading: Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You acknowledge that you can lose some or all of your capital.
+
+No Guarantees: U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.`,
     },
     {
-      title: "Disclaimer and Non-Refundable Policy",
-      content: `All information provided within U.T.M is for educational and informational purposes only and should not be interpreted as financial, investment, or trading advice.
+      title: "Intellectual Property: The {Hloser Model} & Content Protection",
+      content: `Ownership: All materials, including the Hloser Model, the "How-To" video series, entry strategy breakdowns, and all weekly/daily forecast videos, are the exclusive intellectual property of University of Trading-MA.
 
-We do not guarantee the accuracy, completeness, or reliability of any content, and you agree that you use such information at your own risk.
+Limited License: Upon payment, you are granted a single, non-transferable license to view the content for your personal education only.
 
-All subscription fees and payments are non-refundable.`,
+Strict Prohibitions: You are expressly forbidden from recording, downloading, screenshotting, or sharing any part of the Hloser Model or educational videos on social media, YouTube, or with non-members
+
+Consequences: Any breach of this section will result in an immediate permanent ban without a refund and may lead to legal action for intellectual property theft.`,
     },
     {
-      title: "Limitations on Financial Guidance",
-      content: `U.T.M does not provide financial, investment, or trading advice.
+      title: "Subscription, Payments, & Strict Non-Refundable Policy",
+      content: `Instant Access: Our service provides "Instant Access" to digital goods (videos, chat, and analysis).
+      
+Strict No-Refunds: Because our product is digital and consumed immediately upon access, all sales are final. No refunds will be issued under any circumstances, including dissatisfaction with market performance or "accidental" purchases.
 
-Any opinions, analyses, or insights shared by members or moderators are strictly educational and should not be considered professional financial advice.
-
-You are solely responsible for your trading decisions and must conduct your own independent research before making any financial choices.`,
+Cancellation: You may cancel your subscription at any time to prevent future billing, but you will retain access until the end of your current billing cycle.`,
     },
     {
-      title: "Breaches of Terms and Conditions",
-      content: `We reserve the right to suspend or terminate your access to U.T.M if you breach these Terms or engage in harmful or disruptive behavior within the community.
+      title: "Community Conduct & Discord Access",
+      content: `Chat Access (24/7): Our chat groups are for professional discussion. Any member engaging in harassment, spamming, or promoting other services will be removed immediately.
 
-We may pursue appropriate legal action against individuals or entities responsible for any violations.`,
+Account Sharing: Your subscription is for your eyes only. Sharing Discord links or Whop login details with others will result in an automatic system ban.`,
     },
     {
       title: "Non-Disclosure Agreement (NDA)",
@@ -40,28 +48,16 @@ This NDA strictly prohibits sharing any confidential information, content, or ma
 You agree to maintain full confidentiality and refrain from distributing or revealing internal information without prior authorization.`,
     },
     {
-      title: "Service Modifications",
-      content: `U.T.M reserves the right to modify, update, or discontinue the service at any time, with or without prior notice.
-
-This includes changes to features, functionality, pricing, or service availability.
-
-You understand and agree that U.T.M will not be liable for any modifications or discontinuation of the service, and that such changes are made at our sole discretion.
-
-You are responsible for reviewing these Terms periodically for any updates.`,
+      title: "Non-Disclosure Agreement (NDA) & Confidentiality",
+      content: "By joining U.T.M, you agree to a strict Non-Disclosure Agreement. You must maintain full confidentiality regarding our internal trading strategies, specific entry models (Hloser Model), and private member discussions. Sharing internal "Market Forecasts" with third parties is a direct violation of this agreement.",
     },
     {
-      title: "Changes to Terms",
-      content: `We may update or revise these Terms at any time without prior notice.
-
-Any changes become effective immediately upon being posted on the platform.
-
-Your continued use of U.T.M after such updates constitutes your acceptance of the revised Terms.`,
+      title: "Service Modifications & Updates",
+      content: "U.T.M reserves the right to change, update, or discontinue any part of the service (including pricing, video content, or the Hloser Model updates) at any time without prior notice. We are not liable to you or any third party for any modification or suspension of the service.",
     },
     {
-      title: "Governing Law",
-      content: `These Terms and your use of U.T.M shall be governed by and construed in accordance with the laws of the United States.
-
-Any disputes arising in connection with these Terms shall fall under the exclusive jurisdiction of the U.S. courts.`,
+      title: "Governing Law & Dispute Resolution",
+      content: " These Terms shall be governed by the laws of Morocco and international digital commerce standards. Any dispute arising from these terms that cannot be resolved through support shall be handled exclusively by the competent courts in the service provider's jurisdiction",
     },
   ]
 
@@ -75,7 +71,7 @@ Any disputes arising in connection with these Terms shall fall under the exclusi
           <h1 className="text-4xl font-bold mb-6 text-gray-900">Terms of Service</h1>
           
           <p className="text-base text-gray-600 mb-8">
-            These Terms of Service ("Terms") govern your use of University of Trading MA ("U.T.M", "we", "us", or "our"). By accessing or using U.T.M, you acknowledge that you have read, understood, and agreed to be bound by these Terms. If you do not agree, you may not access or use the platform or any of its services.
+            Welcome to University of Trading-MA ("U.T.M"). By accessing our website, purchasing any of our subscription plans (Starter, Popular, or Value), or joining our private Discord/Whop community, you enter into a legally binding agreement with us. These Terms of Service govern your entire experience with our platform. If you disagree with any part of these terms, you are prohibited from using our services or accessing our proprietary content
           </p>
 
           <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
@@ -98,7 +94,7 @@ Any disputes arising in connection with these Terms shall fall under the exclusi
           <div className="mt-10 pt-6 border-t border-gray-200">
             <h2 className="font-semibold text-lg mb-3 text-gray-900">Contact</h2>
             <p className="text-base text-gray-700">
-              If you have any questions or concerns regarding these Terms of Service, please contact us at:{" "}
+              For any legal inquiries or support questions, please reach out to us at:{" "}
               <a href="mailto:support@universityoftradingma.com" className="text-blue-600 underline hover:text-blue-800">
                 support@universityoftradingma.com
               </a>
