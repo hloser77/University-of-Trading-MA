@@ -15,7 +15,7 @@ interface Section {
 export default function PrivacyPolicy() {
   const sections: Section[] = [
     {
-      title: "Information We Collect",
+      title: "Information Collection & Zero Financial Storage Mandate",
       content: `To ensure maximum security for our members, we adhere to a strict policy regarding the types of data we handle:`,
       subsection: {
         title: "Personal Identification:",
@@ -28,49 +28,28 @@ export default function PrivacyPolicy() {
         content: `We collect limited technical data (such as IP addresses, device types, and operating systems) for the strict purposes of analytics and platform security, including the prevention of unauthorized account sharing.`,
     },
     {
-      title: "How We Use Your Information",
-      content: `We may use the information we collect for various purposes, including but not limited to:
+      title: "Strategic Use of Information",
+      content: `We use the data collected for operational excellence and protection of our intellectual property:
 
-• Operating and maintaining U.T.M and its features.
-• Managing memberships and user access.
-• Communicating with you regarding your account or subscription.
-• Improving educational content and user experience.
-• Monitoring platform usage and preventing misuse.
-• Complying with applicable legal obligations and protecting our rights.`,
+• Membership Management: To verify your active subscription and grant specific roles within our private Discord community.
+• Service Updates: To notify you of critical changes to the Hloser Model, market forecasts, or updates to our Terms of Service.
+• Intellectual Property Protection: To monitor for fraudulent activities, such as unauthorized screen recording or redistribution of our proprietary educational content.
+• Legal Compliance: To meet our legal obligations and defend U.T.M against fraudulent chargeback claims or disputes.`,
     },
     {
-      title: "How We Share Your Information (We do not sell or rent your personal information)",
-      content: `We may share limited information only under the following circumstances:
+      title: "Non-Disclosure & Data Sharing Policy",
+      content: `We do not sell, rent, or trade your personal information to any third parties for marketing purposes. Data sharing is strictly limited to:
 
-• With service providers (such as Whop) strictly for operational purposes.
-• With your consent or when you voluntarily share information within the community.
-• When required by law or to enforce our policies and protect our rights.`,
+• Whop & Stripe: Only the metadata necessary to confirm payment status and manage your subscription.
+• Legal Necessity: We will disclose information only when legally mandated by court orders or to protect our intellectual property rights in cases of theft or breach of our NDA.`,
     },
     {
-      title: "Your Choices",
-      content: `You have certain options regarding the personal information we collect, including:
-
-• Choosing not to provide some types of information, understanding that this may limit access to certain features of U.T.M.
-• Requesting updates or corrections to your personal information by contacting us.
-• Opting out of promotional communications by following the instructions included in such messages.`,
+      title: "Children’s Privacy & Age Restrictions",
+      content: `U.T.M is a professional educational platform strictly intended for individuals aged 18 or older. We do not knowingly collect personal information from minors.`,
     },
     {
-      title: "Data Security",
-      content: `We implement reasonable administrative and technical measures to protect your information from unauthorized access, loss, or misuse.
-
-However, no online platform can guarantee absolute security. By using U.T.M, you acknowledge that data transmission occurs at your own risk.`,
-    },
-    {
-      title: "Children's Privacy",
-      content: `U.T.M is not intended for individuals under the age of 18.
-
-We do not knowingly collect personal information from minors.`,
-    },
-    {
-      title: "Regulation & Jurisdiction",
-      content: `U.T.M is not a licensed financial advisory firm and does not provide regulated financial services in Morocco or any other jurisdiction.
-      
-Users are solely responsible for ensuring that their participation in U.T.M complies with local laws and regulations applicable to them.`,
+      title: "Governing Law and Jurisdiction",
+      content: `U.T.M operates as an educational community. While we aim for global compliance, you agree that this Privacy Policy and any data disputes shall be governed by the laws of Morocco and international electronic commerce standards. Users are responsible for ensuring their participation complies with their specific local regulations.`,
     },
     {
       title: "Changes to This Privacy Policy",
@@ -117,7 +96,7 @@ Any changes will be posted on this page, and continued use of U.T.M constitutes 
           <div className="mt-10 pt-6 border-t border-gray-200">
             <h2 className="font-semibold text-lg mb-3 text-gray-900">Contact Us</h2>
             <p className="text-base text-gray-700">
-              If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:{" "}
+              For any questions, data requests, or concerns regarding your privacy, please contact our support team at:{" "}
               <a href="mailto:support@universityoftradingma.com" className="text-blue-600 underline hover:text-blue-800">
                 support@universityoftradingma.com
               </a>
