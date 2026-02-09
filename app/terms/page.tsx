@@ -7,7 +7,7 @@ export default function TermsOfService() {
   const sections = [
     {
       title: "Subscription Suspension and Cancellation",
-      content: "If you subscribe to any paid features or premium services offered by U.T.M, we reserve the right to suspend or cancel your subscription at any time, without prior notice, and for any reason, including but not limited to violations of these Terms or failure to pay subscription fees.",
+      content: `If you subscribe to any paid features or premium services offered by U.T.M, we reserve the right to suspend or cancel your subscription at any time, without prior notice, and for any reason, including but not limited to violations of these Terms or failure to pay subscription fees.`,
     },
     {
       title: "Disclaimer and Non-Refundable Policy",
