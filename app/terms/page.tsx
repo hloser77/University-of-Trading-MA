@@ -71,7 +71,7 @@ Account Sharing: Your subscription is for your eyes only. Sharing Telegram links
           </h1>
 
           <p className="text-base text-gray-600 mb-8">
-            Welcome to University of Trading-MA ("U.T.M"). By accessing our website, purchasing any subscription plan, or joining our private Discord/Whop community, you enter into a legally binding agreement with us. If you disagree with any part of these terms, you are prohibited from using our services.
+            Welcome to University of Trading-MA ("U.T.M"). By accessing our website, purchasing any of our subscription plans (Starter, Popular, or Value), or joining our private Discord/Whop community, you enter into a legally binding agreement with us. These Terms of Service govern your entire experience with our platform. If you disagree with any part of these terms, you are prohibited from using our services or accessing our proprietary content.
           </p>
 
           <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
