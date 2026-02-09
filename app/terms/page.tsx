@@ -76,7 +76,7 @@ You agree to maintain full confidentiality and refrain from distributing or reve
 
           <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
             <p className="text-base text-red-800 font-medium">
-              ⚠️ Important: By accessing or using U.T.M, you acknowledge that you have read, understood, and agreed to be bound by these Terms..
+              ⚠️ Important: By accessing or using U.T.M, you acknowledge that you have read, understood, and agreed to be bound by these Terms.
             </p>
           </div>
 
