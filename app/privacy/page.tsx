@@ -92,7 +92,7 @@ Any changes will be posted on this page, and continued use of U.T.M constitutes 
           <h1 className="text-4xl font-bold mb-6 text-gray-900">Privacy Policy</h1>
           
           <p className="text-base text-gray-600 mb-8">
-            This Privacy Policy explains how University of Trading MA ("U.T.M", "we", "us", or "our") collects, uses, and shares personal information from users ("you", "your") of our educational trading community.
+            University of Trading-MA ("U.T.M", "we", "us", or "our") is dedicated to providing a secure educational environment for traders. This Privacy Policy outlines our rigorous standards for collecting, using, and safeguarding your personal information. By accessing our services, subscribing via Whop, or participating in our Discord community, you expressly acknowledge and agree to the practices described in this comprehensive policy.
           </p>
 
           <div className="mb-8 bg-gray-50 border border-gray-200 p-6 rounded-lg">
