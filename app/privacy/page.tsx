@@ -16,18 +16,16 @@ export default function PrivacyPolicy() {
   const sections: Section[] = [
     {
       title: "Information We Collect",
-      content: `When you join U.T.M, we may collect personal information such as your name, email address, username, and any other information you voluntarily provide.
-
-We may also automatically collect limited technical data related to your use of the platform, such as device type, browser type, and operating system, for analytics and security purposes.
-
-Additionally, we may collect information when you communicate with us through emails, messages, or any other forms of interaction.`,
+      content: `To ensure maximum security for our members, we adhere to a strict policy regarding the types of data we handle:`,
       subsection: {
-        title: "Payment Information:",
-        content: `All payments are securely processed by Whop, a third-party payment platform.
-U.T.M does not store, process, or have access to users' full credit or debit card details.
-
-Payment processing is subject to Whop's own Privacy Policy and Terms of Service.`
-      }
+        title: "Personal Identification:",
+        content: `We collect basic information such as your name, email address, and Discord/Whop username solely to manage your membership and provide access to the Hloser Model and our educational videos.`,
+      subsection: {
+        title: "Zero Access to Banking Data (Critical):",
+        content: `U.T.M does not store, process, host, or have any access to your sensitive financial information. All payment transactions, including credit card details, CVV codes, and billing addresses, are handled exclusively by our secure third-party processor, Whop. Your financial interaction is governed by Whop’s independent Privacy Policy and security protocols.`,
+      subsection: {
+        title: "Automated Technical Data:",
+        content: `We collect limited technical data (such as IP addresses, device types, and operating systems) for the strict purposes of analytics and platform security, including the prevention of unauthorized account sharing.`,
     },
     {
       title: "How We Use Your Information",
