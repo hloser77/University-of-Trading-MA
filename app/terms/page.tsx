@@ -8,59 +8,46 @@ export default function TermsOfService() {
     {
       title: "Comprehensive Financial & Educational Disclaimer",
       content: `
-Educational Purpose Only:
-All content provided by U.T.M, including Daily Trade Ideas, Weekly Forecasts, and Market Analysis, is strictly for educational and informational purposes.
+Educational Purpose Only: All content provided by U.T.M, including Daily Trade Ideas, Weekly Forecasts, and Market Analysis, is strictly for educational and informational purposes.
 
-Not Financial Advice:
-We are not registered financial advisors. Nothing shared within the community or on the website constitutes professional investment, financial, or trading advice.
+Not Financial Advice: We are not registered financial advisors. Nothing shared within the community or on the website constitutes professional investment, financial, or trading advice.
 
-Risk of Trading:
-Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You acknowledge that you may lose some or all of your capital.
+Risk of Trading: Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You acknowledge that you may lose some or all of your capital.
 
-No Guarantees:
-U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.
+No Guarantees: U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.
       `,
     },
 
     {
       title: "Intellectual Property: The (Hloser Model) & Content Protection",
       content: `
-Ownership:
-All materials, including the Hloser Model, How-To video series, strategy breakdowns, and forecast videos, are the exclusive intellectual property of University of Trading-MA.
+Ownership: All materials, including the Hloser Model, How-To video series, strategy breakdowns, and forecast videos, are the exclusive intellectual property of University of Trading-MA.
 
-Limited License:
-Upon payment, you are granted a single, non-transferable license to view content for personal educational use only.
+Limited License: Upon payment, you are granted a single, non-transferable license to view content for personal educational use only.
 
-Strict Prohibitions:
-Recording, downloading, screenshotting, or sharing any proprietary content is strictly forbidden.
+Strict Prohibitions: Recording, downloading, screenshotting, or sharing any proprietary content is strictly forbidden.
 
-Consequences:
-Any violation will result in immediate permanent ban without refund and may lead to legal action.
+Consequences: Any violation will result in immediate permanent ban without refund and may lead to legal action.
       `,
     },
 
     {
       title: "Subscription, Payments, & Strict Non-Refundable Policy",
       content: `
-Instant Access:
-Our service provides immediate access to digital goods (videos, chat, market analysis).
+Instant Access: Our service provides immediate access to digital goods (videos, chat, market analysis).
 
-Strict No-Refund Policy:
-Due to the digital nature of our products, all sales are final. No refunds will be issued under any circumstances.
+Strict No-Refund Policy: Due to the digital nature of our products, all sales are final. No refunds will be issued under any circumstances.
 
-Cancellation:
-You may cancel at any time to prevent future billing. Access remains until the end of your billing cycle.
+Cancellation: You may cancel at any time to prevent future billing. Access remains until the end of your billing cycle.
       `,
     },
 
     {
       title: "Community Conduct & Discord Access",
       content: `
-Professional Conduct:
-Our chat communities are for professional discussion only. Harassment, spam, or promotions will result in removal.
+Professional Conduct: Our chat communities are for professional discussion only. Harassment, spam, or promotions will result in removal.
 
-Account Sharing:
-Sharing Whop logins, Discord access, or Telegram links is strictly prohibited and will result in automatic ban.
+Account Sharing: Sharing Whop logins, Discord access, or Telegram links is strictly prohibited and will result in automatic ban.
       `,
     },
 
