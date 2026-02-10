@@ -50,8 +50,8 @@ const plans = [
   },
   {
     name: "Soon",
-    price: "20",
-    period: "p/month",
+    price: "#",
+    period: "#",
     badge: "Value",
     description: "Master the market",
     icon: Zap,
@@ -68,7 +68,7 @@ const plans = [
     cta: "Unlock Full Access",
     link: "#",
     popular: true,
-    saving: "Save 20%",
+    saving: "31 Mar",
   },
   {
     name: "Free Community",
