@@ -85,7 +85,6 @@ Account Sharing: Your subscription is for your eyes only. Sharing Telegram links
               <div key={index}>
                <h2 className="font-semibold text-lg text-gray-900 mb-4">
                 {index + 1}. {section.title}
-                <div className="w-16 h-[2px] bg-gray-300 mt-2 rounded"></div>
                </h2>
                 <p className="whitespace-pre-wrap">{section.content}</p>
               </div>
