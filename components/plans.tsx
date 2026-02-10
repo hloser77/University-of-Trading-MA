@@ -65,7 +65,7 @@ const plans = [
       { name: "New service (soon)", included: true },
       { name: "New service (soon)", included: true },
     ],
-    cta: "Unlock Full Access",
+    cta: "Soon",
     link: "#",
     popular: true,
     saving: "31 Mar",
