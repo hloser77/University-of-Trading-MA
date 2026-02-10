@@ -82,15 +82,17 @@ Account Sharing: Your subscription is for your eyes only. Sharing Telegram links
 
           <div className="text-base text-gray-700 leading-relaxed space-y-8">
             {sections.map((section, index) => (
-              <div key={index}>
-               <h2 className="font-semibold text-lg text-gray-900 mb-4">
+            <div key={index}>
+              <h2 className="font-semibold text-lg text-gray-900 mb-2">
                 {index + 1}. {section.title}
-               </h2>
-                <p className="whitespace-pre-wrap">
-                  {section.content}
-                  <div className="w-20 h-[2px] bg-gradient-to-r from-gray-400 to-gray-200 mt-2 rounded"></div>
-                </p>
-              </div>
+              </h2>
+          
+              <p className="whitespace-pre-wrap mb-4 text-gray-700">
+                {section.content}
+              </p>
+          
+              <div className="w-24 h-[2px] bg-gradient-to-r from-gray-400 to-gray-200 rounded"></div>
+            </div> 
             ))}
           </div>
 
