@@ -7,55 +7,108 @@ export default function TermsOfService() {
   const sections = [
     {
       title: "Comprehensive Financial & Educational Disclaimer",
-      content: `Educational Purpose Only: All content provided by U.T.M, including but not limited to Daily Trade Ideas, Weekly Forecasts, and Market Analysis, is strictly for educational and informational purposes.
-
-Not Financial Advice: We are not registered financial advisors. Nothing shared within the community or on the website constitutes professional investment, financial, or trading advice.
-
-Risk of Trading: Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You acknowledge that you can lose some or all of your capital.
-
-No Guarantees: U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.`,
+      content: [
+        {
+          label: "Educational Purpose Only",
+          text: "All content provided by U.T.M, including Daily Trade Ideas, Weekly Forecasts, and Market Analysis, is strictly for educational and informational purposes.",
+        },
+        {
+          label: "Not Financial Advice",
+          text: "We are not registered financial advisors. Nothing shared within the community or on the website constitutes professional financial or trading advice.",
+        },
+        {
+          label: "Risk of Trading",
+          text: "Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You may lose some or all of your capital.",
+        },
+        {
+          label: "No Guarantees",
+          text: "U.T.M does not guarantee any specific profit or outcome. Your results depend on your execution and risk management.",
+        },
+      ],
     },
 
     {
       title: "Intellectual Property: The (Hloser Model) & Content Protection",
-      content: `Ownership: All materials, including the Hloser Model, the How-To video series, entry strategy breakdowns, and all weekly/daily forecast videos, are the exclusive intellectual property of University of Trading-MA.
-
-Limited License: Upon payment, you are granted a single, non-transferable license to view the content for your personal education only.
-
-Strict Prohibitions: You are forbidden from recording, downloading, screenshotting, or sharing any part of the Hloser Model or educational videos on social media, YouTube, or with non-members.
-
-Consequences: Any breach of this section will result in an immediate permanent ban without a refund and may lead to legal action for intellectual property theft.`,
+      content: [
+        {
+          label: "Ownership",
+          text: "All materials, including the Hloser Model, video series, and forecasts, are exclusive intellectual property of University of Trading-MA.",
+        },
+        {
+          label: "Limited License",
+          text: "You are granted a non-transferable license to view content for personal education only.",
+        },
+        {
+          label: "Strict Prohibitions",
+          text: "You are forbidden from recording, downloading, screenshotting, or sharing content publicly.",
+        },
+        {
+          label: "Consequences",
+          text: "Any breach results in a permanent ban and possible legal action.",
+        },
+      ],
     },
 
     {
-      title: "Subscription, Payments, & Strict Non-Refundable Policy",
-      content: `Instant Access: Our service provides instant access to digital goods such as (videos, chat, and market analysis) .
-
-Strict No-Refunds: Because our product is digital and consumed immediately upon access, all sales are final. No refunds will be issued under any circumstances, including dissatisfaction or accidental purchases.
-
-Cancellation: You may cancel your subscription at any time to prevent future billing, but you will retain access until the end of your current billing cycle.`,
+      title: "Subscription, Payments, & Non-Refundable Policy",
+      content: [
+        {
+          label: "Instant Access",
+          text: "Digital services such as videos, chat, and market analysis are delivered instantly.",
+        },
+        {
+          label: "No Refunds",
+          text: "All sales are final due to instant digital consumption.",
+        },
+        {
+          label: "Cancellation",
+          text: "You may cancel anytime to stop future billing while retaining access until cycle ends.",
+        },
+      ],
     },
 
     {
       title: "Community Conduct & Discord Access",
-      content: `Chat Access (24/7): Our chat groups are for professional discussion only. Any member engaging in harassment, spamming, or promoting other services will be removed immediately.
-
-Account Sharing: Your subscription is for your eyes only. Sharing Telegram links or Whop login details with others will result in an automatic system ban.`,
+      content: [
+        {
+          label: "Chat Access",
+          text: "Community groups are for professional discussion only.",
+        },
+        {
+          label: "Account Sharing",
+          text: "Sharing login or private links results in automatic ban.",
+        },
+      ],
     },
 
     {
-      title: "Non-Disclosure Agreement (NDA) & Confidentiality",
-      content: `By joining U.T.M, you agree to a strict Non-Disclosure Agreement.You must maintain full confidentiality regarding internal trading strategies, specific entry models (Hloser Model), and private member discussions.Sharing internal forecasts or confidential materials with third parties is a direct violation of this agreement.`,
+      title: "Non-Disclosure Agreement (NDA)",
+      content: [
+        {
+          label: "Confidentiality",
+          text: "Members must keep strategies, models, and private discussions confidential.",
+        },
+      ],
     },
 
     {
-      title: "Service Modifications & Updates",
-      content: `U.T.M reserves the right to change, update, or discontinue any part of the service (including pricing, video content, or strategy updates) at any time without prior notice.We are not liable for any modification, suspension, or discontinuation of the service.`,
+      title: "Service Modifications",
+      content: [
+        {
+          label: "Updates",
+          text: "U.T.M may modify pricing, content, or services without notice.",
+        },
+      ],
     },
 
     {
-      title: "Governing Law & Dispute Resolution",
-      content: `These Terms shall be governed by the laws of Morocco and international digital commerce standards.Any dispute that cannot be resolved through support will be handled exclusively by the competent courts in the provider's jurisdiction.`,
+      title: "Governing Law & Disputes",
+      content: [
+        {
+          label: "Legal Jurisdiction",
+          text: "These Terms follow Moroccan law and international digital commerce standards.",
+        },
+      ],
     },
   ]
 
@@ -71,35 +124,47 @@ Account Sharing: Your subscription is for your eyes only. Sharing Telegram links
           </h1>
 
           <p className="text-base text-gray-600 mb-8">
-            Welcome to University of Trading-MA ("U.T.M"). By accessing our website, purchasing any of our subscription plans (Starter, Popular, or Value), or joining our private Discord/Whop community, you enter into a legally binding agreement with us. These Terms of Service govern your entire experience with our platform. If you disagree with any part of these terms, you are prohibited from using our services or accessing our proprietary content.
+            Welcome to University of Trading-MA ("U.T.M"). By using our platform,
+            you agree to these Terms of Service.
           </p>
 
           <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
             <p className="text-base text-red-800 font-medium">
-              ⚠️ Important: By accessing or using U.T.M, you confirm that you have read, understood, and agreed to these Terms.
+              ⚠️ Important: By accessing U.T.M, you confirm you agree to these Terms.
             </p>
           </div>
 
-          <div className="text-base text-gray-700 leading-relaxed space-y-8">
-            {sections.map((section, index) => (
-            <div key={index}>
-              <h2 className="font-semibold text-lg text-gray-900 mb-2">
-                {index + 1}. {section.title}
-              </h2>
-          
-              <p className="whitespace-pre-wrap mb-4 text-gray-700">
-                {section.content}
-              </p>
-          
-              <div className="w-24 h-[2px] bg-gradient-to-r from-gray-400 to-gray-200 rounded"></div>
-            </div> 
+          <div className="space-y-12 text-gray-700">
+            {sections.map((section, i) => (
+              <div key={i}>
+                <h2 className="font-semibold text-lg text-gray-900 mb-5">
+                  {i + 1}. {section.title}
+                </h2>
+
+                <div className="space-y-6">
+                  {section.content.map((item, j) => (
+                    <div key={j}>
+                      <p className="font-semibold text-gray-900">
+                        {item.label}:
+                      </p>
+
+                      {/* underline under mini title */}
+                      <div className="w-28 h-[2px] bg-gray-300 my-2 rounded"></div>
+
+                      <p className="text-gray-700">
+                        {item.text}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
 
-          <div className="mt-10 pt-6 border-t border-gray-200">
+          <div className="mt-12 pt-6 border-t border-gray-200">
             <h2 className="font-semibold text-lg mb-3 text-gray-900">Contact</h2>
             <p className="text-base text-gray-700">
-              For any legal inquiries or support questions, please reach out to us at:{" "}
+              Email support:{" "}
               <a
                 href="mailto:support@universityoftradingma.com"
                 className="text-blue-600 underline hover:text-blue-800"
