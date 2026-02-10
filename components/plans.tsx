@@ -50,8 +50,8 @@ const plans = [
   },
   {
     name: "Soon",
-    price: "#",
-    period: "#",
+    price: "",
+    period: "",
     badge: "Value",
     description: "Master the market",
     icon: Zap,
