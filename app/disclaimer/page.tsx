@@ -58,6 +58,25 @@ export default function DisclaimerRefund() {
     },
   ]
 
+  const refundItems = [
+    {
+      title: "All Sales Are Final",
+      content: "Due to the digital nature of our services and immediate access to content, all payments are non-refundable.",
+    },
+    {
+      title: "Recurring Payments",
+      content: "Subscriptions renew automatically unless canceled at least 3 days before the next billing date.",
+    },
+    {
+      title: "Cancellation Responsibility",
+      content: "Late cancellations do not prevent the next charge",
+    },
+    {
+      title: "No Refund After Renewal",
+      content: "Once a renewal payment is processed, no refunds will be issued under any circumstances.",
+    },
+  ]
+
   return (
     <>
       <Header />
