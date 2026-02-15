@@ -7,23 +7,23 @@ export default function DisclaimerRefund() {
   const disclaimerItems = [
     {
       title: "Risk of Loss",
-      content: "Trading stocks, futures, forex, or cryptocurrencies involves significant risk and may result in partial or total loss of capital. Only trade with money you can afford to lose.",
+      content: "Trading stocks, futures, forex, or cryptocurrencies involves significant risk and may result in partial or total loss of capital.",
     },
     {
       title: "Educational Purposes Only",
-      content: "All content provided within U.T.M is for educational and informational purposes only and does not constitute financial, investment, or trading advice.",
+      content: "All content, including the Hloser Model, is for informational purposes only and does not constitute financial or trading advice.",
     },
     {
       title: "No Guarantees",
-      content: "U.T.M does not guarantee accuracy, profitability, or specific trading results. Past performance is not indicative of future outcomes.",
+      content: "U.T.M does not guarantee accuracy, profitability, or specific trading results. Past performance does not guarantee future outcomes.",
     },
     {
       title: "Independent Evaluation",
-      content: "All trading decisions are made independently by you. You are solely responsible for evaluating any information shared.",
+      content: "You are solely responsible for your trading decisions and must conduct your own research.",
     },
     {
       title: "No Fund Management",
-      content: "U.T.M does not manage user funds, execute trades on behalf of users, or provide personalized investment advice.",
+      content: "We do not manage user funds or execute trades on behalf of users.",
     },
     {
       title: "Testimonials",
@@ -41,20 +41,20 @@ export default function DisclaimerRefund() {
 
   const refundItems = [
     {
-      title: "All Sales Are Final",
-      content: "Due to the digital nature of our services and immediate access to content, all payments are non-refundable.",
+      title: "Final Sale:",
+      content: "All payments are non-refundable once access to the digital platform, videos, or the Hloser Model is granted.",
     },
     {
-      title: "Recurring Payments",
-      content: "Subscriptions renew automatically unless canceled at least 3 days before the next billing date.",
+      title: "Instant Access:",
+      content: "By subscribing, you acknowledge that you receive immediate delivery of digital goods, which waives any right to a refund under consumer protection laws for digital content.",
     },
     {
-      title: "Cancellation Responsibility",
-      content: "Late cancellations do not prevent the next charge",
+      title: "Zero Access to Banking Data:",
+      content: "U.T.M does not store or process your sensitive financial information (credit cards, CVV). All payments are handled securely by Whop, and we have no access to your full payment details.",
     },
     {
-      title: "No Refund After Renewal",
-      content: "Once a renewal payment is processed, no refunds will be issued under any circumstances.",
+      title: "Subscription Renewals:",
+      content: "Subscriptions renew automatically unless canceled at least 3 days before the next billing date. No refunds will be issued after a renewal is processed.",
     },
   ]
 
@@ -65,13 +65,13 @@ export default function DisclaimerRefund() {
         <div className="max-w-4xl mx-auto">
       
           
-          <h1 className="text-4xl font-bold mb-8 text-gray-900">Disclaimer & Refund Policy</h1>
+          <h1 className="text-4xl font-bold mb-8 text-gray-900">Disclaimer & Refund Policy: University of Trading-MA (U.T.M)</h1>
           
           <div className="text-base text-gray-700 leading-relaxed space-y-10">
             <div>
-              <h2 className="font-semibold text-2xl mb-4 text-gray-900">Disclaimer</h2>
+              <h2 className="font-semibold text-2xl mb-4 text-gray-900">Comprehensive Disclaimer</h2>
               <p className="mb-6">
-                University of Trading MA (U.T.M) is an educational community focused on sharing trading knowledge, insights, and experiences. By participating in U.T.M, you acknowledge and agree to the following:
+                University of Trading-MA (U.T.M) is an educational community focused on sharing trading knowledge and experiences. By participating, you acknowledge the following:
               </p>
               <div className="space-y-4">
                 {disclaimerItems.map((item) => (
@@ -91,7 +91,7 @@ export default function DisclaimerRefund() {
                   </div>
                 ))}
               </div>
-              <p className="mt-6 font-medium">By subscribing, you confirm that you have read, understood, and agreed to this Refund Policy.</p>
+              <p className="mt-6 font-medium">Due to the digital nature of our proprietary content, we maintain a strict No-Refund policy to protect our intellectual property.</p>
             </div>
 
             <div className="pt-6 border-t border-gray-200">
