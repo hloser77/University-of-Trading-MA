@@ -65,7 +65,7 @@ export default function DisclaimerRefund() {
         <div className="max-w-4xl mx-auto">
       
           
-          <h1 className="text-4xl font-bold mb-8 text-gray-900">Disclaimer & Refund Policy: University of Trading-MA (U.T.M)</h1>
+          <h1 className="text-4xl font-bold mb-8 text-gray-900">Disclaimer & Refund Policy</h1>
           
           <div className="text-base text-gray-700 leading-relaxed space-y-10">
             <div>
