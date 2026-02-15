@@ -83,7 +83,7 @@ export default function DisclaimerRefund() {
             </div>
 
             <div>
-              <h2 className="font-semibold text-2xl mb-4 text-gray-900">Refund Policy</h2>
+              <h2 className="font-semibold text-2xl mb-4 text-gray-900">Strict Refund & Payment Policy</h2>
               <div className="space-y-4">
                 {refundItems.map((item) => (
                   <div key={item.title}>
