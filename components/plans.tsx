@@ -9,7 +9,7 @@ const plans = [
     price: "25",
     period: "/month",
     badge: "Starter",
-    description: "Begin your journey",
+    description: "New price starting March 31: $150/month",
     icon: Target,
     features: [
       { name: "Daily Forecasts", included: true },
@@ -30,7 +30,7 @@ const plans = [
     price: "23",
     period: "/month",
     badge: "Popular",
-    description: "Accelerate growth",
+    description: "New price starting March 31: $400/quarter",
     icon: Zap,
     features: [
       { name: "Daily Forecasts", included: true },
@@ -53,7 +53,7 @@ const plans = [
     price: "",
     period: "",
     badge: "Value",
-    description: "Master the market",
+    description: "New price starting March 31: $1500/yearly",
     icon: Zap,
     features: [
       { name: "New service (soon)", included: true },
