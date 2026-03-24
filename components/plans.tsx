@@ -7,7 +7,7 @@ const plans = [
   {
     name: "1 Month",
     price: "25",
-    period: "/month",
+    period: "p/month",
     badge: "Starter",
     description: "New price starting March 31: $150/month",
     icon: Target,
@@ -28,7 +28,7 @@ const plans = [
   {
     name: "2 Months",
     price: "23",
-    period: "/month",
+    period: "p/month",
     badge: "Popular",
     description: "New price starting March 31: $400/quarter",
     icon: Zap,
