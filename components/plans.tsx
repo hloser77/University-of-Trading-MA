@@ -85,7 +85,7 @@ const plans = [
       { name: "A simple start before upgrading", included: true },
     ],
     cta: "Join Free discord",
-    link: "https://whop.com/hl0ser/universityoftradingma/",
+    link: "https://whop.com/university-of-trading-ma/universityoftradingma/",
     popular: false,
   },
 ]
