@@ -5,8 +5,8 @@ import { useEffect, useState } from "react"
 
 const plans = [
   {
-    name: "1 Month",
-    price: "25",
+    name: "Monthly",
+    price: "150",
     period: "p/month",
     badge: "Starter",
     description: "New price starting March 31: $150/month",
@@ -26,8 +26,8 @@ const plans = [
     popular: false,
   },
   {
-    name: "2 Months",
-    price: "23",
+    name: "Quarterly",
+    price: "133",
     period: "p/month",
     badge: "Popular",
     description: "New price starting March 31: $400/quarter",
@@ -49,9 +49,9 @@ const plans = [
     saving: "Save 8%",
   },
   {
-    name: "Soon",
-    price: "",
-    period: "",
+    name: "Yearly",
+    price: "125",
+    period: "p/month",
     badge: "Value",
     description: "New price starting March 31: $1500/yearly",
     icon: Zap,
