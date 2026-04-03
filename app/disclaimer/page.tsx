@@ -71,6 +71,7 @@ export default function DisclaimerRefund() {
             <div>
               <h2 className="font-semibold text-2xl mb-4 text-gray-900">Comprehensive Disclaimer</h2>
               <p className="mb-6">
+                Last Updated: April 3, 2026
                 University of Trading-MA (U.T.M) is an educational community focused on sharing trading knowledge and experiences. By participating, you acknowledge the following:
               </p>
               <div className="space-y-4">
