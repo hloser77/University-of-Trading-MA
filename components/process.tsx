@@ -6,29 +6,29 @@ import { motion } from "framer-motion"
 const steps = [
   {
     number: "1",
-    title: "Get Access",
-    description: "Right after joining, you'll get instant access to our private community and dashboard. We’ll guide you through a smooth onboarding so you can start navigating our daily insights immediately.",
+    title: "Elite Onboarding",
+    description: "Instant Entry to the Inner Circle. Gain immediate access to our private community, your personalized dashboard, and a step-by-step onboarding guide to set you up for success from minute one.",
     step: "Step 1",
   },
   {
     number: "2",
-    title: "Receive Insights",
+    title: "Master the Framework",
     description:
-      "Access daily trade ideas through exclusive videos. You won't just get signals—you'll watch step-by-step analysis to understand the framework behind every high-probability setup in the market.",
+      "Unlock the Hloser Model. Don't just watch videos—master the logic. You'll get daily breakdowns of high-probability setups and the exact framework we use to read the markets like a pro.",
     step: "Step 2",
   },
   {
     number: "3",
-    title: "Stay Connected",
+    title: "Live Execution",
     description:
-      "Join our 24/7 private chat with dedicated channels for every market. You'll never trade alone, as you'll get constant feedback and support from a community that speaks your language.",
+      "Trade Side-by-Side. Join our 24/7 private channels and Live Trading sessions. You’ll never trade alone; get real-time feedback, ask questions, and see how professional decisions are made in the heat of the market.",
     step: "Step 3",
   },
   {
     number: "4",
-    title: " Grow Consistently",
+    title: "Scale & Payout",
     description:
-      "Master the market with our weekly forecasts. Every weekend, we break down upcoming events and long-term views to ensure you stay ahead of the curve and grow your account steadily.",
+      "Achieve Funded Consistency. Use our weekly forecasts and 1-on-1 mentorship to refine your edge. Our goal isn't just learning; it's helping you reach consistent payouts and scale your trading capital.",
     step: "Step 4",
   },
 ]
@@ -85,7 +85,7 @@ export default function Process() {
             Our <span className="text-accent">process.</span>
           </h2>
           <h3 className="text-4xl md:text-5xl font-bold text-balance">And how it works.</h3>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Enter into our simple 4-step trader journey</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Proposed Layout: The 4-Step Path to Mastery</p>
         </motion.div>
 
         {/* Steps Container */}
