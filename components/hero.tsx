@@ -158,7 +158,7 @@ export default function Hero({ isLoaded = true }) {
     <section id="home" className="relative min-h-screen pt-20 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#dce1e8]/30 to-white overflow-hidden">
       
       {/* Coupon Banner with Auto-Scrolling Marquee */}
-        {/* <motion.div
+        { <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
           transition={{ duration: 0.6, delay: 2.0 }}
@@ -166,7 +166,7 @@ export default function Hero({ isLoaded = true }) {
         >
           <div className="relative overflow-hidden border border-accent/20 rounded-xl py-3 text-center bg-white/50 backdrop-blur-sm"> */}
             {/* Animated gradient background */}
-            {/* <motion.div
+            { <motion.div
               className="absolute inset-0 bg-gradient-to-r from-transparent via-accent/10 to-transparent"
               animate={{
                 x: ["-100%", "100%"],
@@ -177,7 +177,7 @@ export default function Hero({ isLoaded = true }) {
                 ease: "linear",
               }}
             /> */}
-            {/* <motion.div
+            { <motion.div
               className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent"
               animate={{
                 x: ["100%", "-100%"],
@@ -190,7 +190,7 @@ export default function Hero({ isLoaded = true }) {
             /> */}
           
           {/* Auto-scrolling text container */}
-          {/* <div className="relative z-10 overflow-hidden">
+          { <div className="relative z-10 overflow-hidden">
             <motion.div
               className="flex whitespace-nowrap"
               animate={{
