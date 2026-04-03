@@ -45,40 +45,31 @@ Automatic Renewal: Subscriptions renew automatically unless a cancellation reque
     },
 
     {
-      title: "Community Conduct & Discord Access",
+      title: "COMMUNITY CONDUCT & ACCOUNT INTEGRITY",
       content: `
-Professional Conduct: Our chat communities are for professional discussion only. Harassment, spam, or promotions will result in removal.
+Professionalism: Users must maintain professional conduct. Harassment, spamming, or unauthorized promotion of external services will lead to immediate removal.
 
-Account Sharing: Sharing Whop logins, Discord access, or Telegram links is strictly prohibited and will result in automatic ban.
+Anti-Sharing Protocol: Sharing Whop logins, Discord credentials, or Telegram invite links is strictly prohibited. Our system monitors IP access; unauthorized account sharing will result in an automatic and permanent ban.
       `,
     },
 
     {
-      title: "Non-Disclosure Agreement (NDA) & Confidentiality",
+      title: "MANDATORY NON-DISCLOSURE AGREEMENT (NDA)",
       content: `
-By joining U.T.M, you agree to a strict Non-Disclosure Agreement.
-
-You must maintain confidentiality regarding internal strategies, entry models (Hloser Model), and private community discussions.
-
-Sharing confidential content is a direct violation and may lead to legal consequences.
+By joining U.T.M, you agree to a strict duty of confidentiality. You are legally bound not to disclose internal strategies, entry models, or private community discussions to any third party. Breach of this confidentiality constitutes a material violation of this agreement.
       `,
     },
 
     {
-      title: "Service Modifications & Updates",
+      title: "LIMITATION OF LIABILITY & INDEMNIFICATION",
       content: `
-U.T.M reserves the right to modify, update, or discontinue any part of the service at any time without prior notice.
-
-We are not liable for changes, suspensions, or service interruptions.
-      `,
+U.T.M shall not be held liable for any direct, indirect, or incidental losses resulting from the use of our educational materials. You agree to indemnify and hold harmless U.T.M from any claims, damages, or expenses arising from your trading activities or breach of these Terms.      `,
     },
 
     {
-      title: "Governing Law & Dispute Resolution",
+      title: "GOVERNING LAW & JURISDICTION",
       content: `
-These Terms shall be governed by the laws of Morocco and international digital commerce standards.
-
-Any dispute will be handled exclusively by the competent courts in the providerâ€™s jurisdiction.
+These Terms and any disputes arising therefrom shall be governed by and construed in accordance with the Laws of the Kingdom of Morocco and international digital commerce standards. Any legal proceedings shall be handled exclusively by the competent courts within the provider's jurisdiction.
       `,
     },
   ];
@@ -120,7 +111,7 @@ Any dispute will be handled exclusively by the competent courts in the providerâ
               Contact
             </h2>
             <p className="text-base text-gray-700">
-              For legal or support inquiries, contact:
+              For legal inquiries, please contact:
               {" "}
               <a
                 href="mailto:support@universityoftradingma.com"
