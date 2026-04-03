@@ -92,6 +92,7 @@ export default function Footer() {
               {[
                 { name: "Terms of service", href: "/terms" },
                 { name: "Privacy Policy", href: "/privacy" },
+                { name: "Refund Policy", href: "/Refund Policy" },
                 { name: "Disclaimer", href: "/disclaimer" },
               ].map((link) => (
                 <li key={link.name}>
