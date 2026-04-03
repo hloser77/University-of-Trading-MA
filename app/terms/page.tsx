@@ -8,13 +8,10 @@ export default function TermsOfService() {
     {
       title: "Comprehensive Financial & Educational Disclaimer",
       content: `
-Educational Purpose Only: All content provided by U.T.M, including Daily Trade Ideas, Weekly Forecasts, and Market Analysis, is strictly for educational and informational purposes.
-
-Not Financial Advice: We are not registered financial advisors. Nothing shared within the community or on the website constitutes professional investment, financial, or trading advice.
-
-Risk of Trading: Trading Forex and Futures involves a high level of risk and may not be suitable for all investors. You acknowledge that you may lose some or all of your capital.
-
-No Guarantees: U.T.M does not guarantee any specific profit or outcome. Your trading results depend on your own execution and risk management.
+Educational Purpose Only: All materials, including but not limited to "Daily Trade Ideas," "Weekly Forecasts," and market analysis, are provided strictly for pedagogical and informational purposes.
+Non-Advisory Status: U.T.M and its affiliates are not registered financial advisors, brokers, or fiduciaries. Nothing shared within the platform constitutes professional investment, tax, or legal advice.
+Assumption of Risk: Trading Forex, Futures, and other financial instruments involves a high degree of risk and substantial capital exposure. You acknowledge that market participation may result in the partial or total loss of your capital.
+No Performance Guarantees: U.T.M makes no warranties regarding specific profit outcomes or success rates. Individual trading results are contingent upon personal execution, psychological discipline, and independent risk management.
       `,
     },
 
@@ -93,7 +90,7 @@ Any dispute will be handled exclusively by the competent courts in the providerâ
           </h1>
 
           <p className="text-base text-gray-600 mb-8">
-            Welcome to University of Trading-MA ("U.T.M"). By accessing our platform, purchasing a subscription, or joining our private community, you agree to these legally binding Terms of Service. If you disagree with any part, you must discontinue use immediately.
+            By accessing the platform provided by University of Trading-MA ("U.T.M"), purchasing any subscription, or participating in the private community (Discord/Whop), you hereby enter into a legally binding contract. You acknowledge that you have read, understood, and voluntarily accepted these Terms in their entirety. If you do not agree with any specific provision, you are strictly prohibited from using the service and must terminate your access immediately.
           </p>
 
           <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
