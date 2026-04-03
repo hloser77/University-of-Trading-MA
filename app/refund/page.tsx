@@ -4,52 +4,51 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 export default function RefundPolicy() {
+  const lastUpdated = "April 3, 2026";
+
   const sections = [
     {
-      title: "1. ACQUISITION OF DIGITAL PROPRIETARY ASSETS",
-      content: `
-Upon the successful processing of a transaction, University of Trading-MA ("U.T.M") provides immediate, irrevocable, and comprehensive access to its proprietary digital ecosystem. This ecosystem includes, but is not limited to, the Hloser Model, high-frequency video masterclasses, strategic blueprints, and real-time community engagement via Discord. 
+      title: "1. IRREVOCABLE NO-REFUND POLICY",
+      content: `Due to the proprietary and digital nature of the services provided by University of Trading-MA ("U.T.M"), we enforce a strict No-Refund Policy. 
 
-By completing the checkout process, the user acknowledges and warrants that the product being acquired is a digital, intangible good. Under international digital commerce standards and the laws of the Kingdom of Morocco, the delivery of such assets occurs instantaneously at the moment of account activation. Therefore, the traditional concept of 'returns' is technically and legally inapplicable, as the digital value cannot be restored to its original unconsumed state.`
+Digital Goods Consumption: Our educational materials, including the 'Hloser Model', video masterclasses, and Discord access, are classified as digital goods. Access is granted immediately upon successful payment. 
+
+Immediate Delivery Waiver: By subscribing, you explicitly acknowledge that you receive immediate access to our digital assets. This immediate delivery constitutes a full execution of the service and waives any 'right of withdrawal' or cooling-off period. All sales are final.`
     },
     {
-      title: "2. STRICT ADHERENCE TO THE NO-REFUND MANDATE",
-      content: `
-U.T.M operates under a rigid 'Strict No-Refund' policy for all membership tiers. This policy is foundational to our operational integrity and is designed to protect our intellectual property from exploitation. 
+      title: "2. SUBSCRIPTION CANCELLATIONS",
+      content: `You have the right to cancel your subscription at any time to prevent future billing. 
 
-There are NO exceptions to this mandate. This lack of exception applies regardless of:
+Procedure: All cancellations must be processed via your user dashboard on Whop. To avoid being charged for the next billing cycle, you must cancel at least 48 hours before your renewal date. 
 
-• The volume of content accessed or the duration of login sessions.
-• Subjective dissatisfaction with market outcomes or trading performance.
-• Technical limitations or software incompatibilities on the user's end.
-• Claims of 'accidental purchase' or 'buyer’s remorse'.
-• Failure to achieve specific profit targets or funded account benchmarks.`
+No Retroactive Refunds: Cancellations stop future charges but do not entitle the user to a refund for previous payments or the current active month. For assistance with cancellations, contact support@universityoftradingma.com.`
     },
     {
-      title: "3. AUTOMATED RENEWAL & BILLING OBLIGATIONS",
-      content: `
-The user accepts full responsibility for the oversight and management of their subscription lifecycle. All memberships are configured for automatic renewal by default. 
+      title: "3. LIFETIME MEMBERSHIPS",
+      content: `A lifetime membership is a one-time purchase that provides ongoing access to U.T.M for the lifespan of the product. 
 
-Notice of Cancellation: To terminate the billing cycle, users must execute a cancellation request through the Whop dashboard no later than seventy-two (72) hours prior to the scheduled rebilling event. 
-
-Retroactive Refund Requests: Requests for refunds pertaining to automated renewals that have already been processed will be summarily denied. U.T.M is under no legal obligation to issue credits for users who fail to manage their subscription settings before the billing deadline.`
+Because digital content cannot be returned once access is provided, all lifetime membership sales are strictly final and non-refundable. If you have questions regarding lifetime access, reach out to support@universityoftradingma.com.`
     },
     {
-      title: "4. THE 'CONSUMED ACCESS' DOCTRINE",
-      content: `
-In accordance with the digital 'Consumed Access' doctrine, once the unique digital key (Whop/Discord access) is utilized to enter the private domain of U.T.M, the service is deemed 'fully performed.' By accessing even a single proprietary video or receiving a single market forecast, the user waives any statutory right of withdrawal or cooling-off period. This waiver is a mandatory condition of the purchase agreement.`
-    },
-    {
-      title: "5. FRAUDULENT CHARGEBACKS & REVERSAL PROTOCOLS",
-      content: `
-Any attempt to bypass this Policy by initiating a fraudulent chargeback through a banking institution constitutes a material breach of our Terms of Service. 
+      title: "4. CHARGEBACKS AND DISPUTES",
+      content: `Initiating a chargeback for a valid and delivered purchase violates this policy. U.T.M monitors all user interaction via timestamped access logs. 
 
-Enforcement Actions: U.T.M monitors all user interaction via IP logging. In the event of a dispute, we will provide the payment processor with granular evidence of service consumption. Any user attempting a chargeback will be permanently de-platformed and their details reported to fraud prevention databases.`
+In the event of a dispute, we will provide full proof of service delivery to payment processors. Filing a fraudulent chargeback will result in permanent removal from the U.T.M platform and restrictions on future access. Please contact support@universityoftradingma.com to resolve any billing issues before contacting your bank.`
     },
     {
-      title: "6. VERIFIED DUPLICATE TRANSACTION EXCEPTION",
-      content: `
-The sole and exclusive circumstance under which a refund may be contemplated is in the event of a verified systemic duplicate charge. This is strictly defined as an occurrence where the internal billing architecture processes two identical charges for the same product, at the same time, for the same user account. No other grievances or claims will qualify for this exception.`
+      title: "5. THE SINGLE EXCEPTION (DUPLICATE CHARGE)",
+      content: `Refunds are issued only in the case of a verified duplicate charge for the exact same product purchased unintentionally within the same billing period. 
+
+A duplicate charge means the customer was billed twice for the identical membership without placing a second order. If confirmed by our billing system, the duplicate payment will be refunded. All refund claims for duplicate charges must be sent to support@universityoftradingma.com.`
+    },
+    {
+      title: "6. AGREEMENT AT CHECKOUT",
+      content: `By completing a purchase, the user confirms:
+• They have read and understand this Return and Refund Policy.
+• They acknowledge that digital access is delivered immediately.
+• They agree that all sales are final.
+• They understand that refunds will not be issued after access is granted.
+• For questions, they will contact support@universityoftradingma.com.`
     }
   ];
 
@@ -57,8 +56,8 @@ The sole and exclusive circumstance under which a refund may be contemplated is 
     <div className="bg-white min-h-screen">
       <Header />
       
-      <main className="max-w-[1200px] mx-auto pt-40 pb-24 px-6 md:px-12">
-        {/* العناوين الكبار بحال لي في الصورة */}
+      <main className="max-w-[800px] mx-auto pt-40 pb-24 px-6">
+        {/* العنوان الضخم والنقي */}
         <div className="mb-20">
           <p className="text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-6 font-medium">
             Legal Documentation — 2026
@@ -69,28 +68,28 @@ The sole and exclusive circumstance under which a refund may be contemplated is 
           </h1>
         </div>
 
-        {/* تقسيم الهضرة بنفس ستايل الصورة */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-16">
+        {/* النص مرتب في عمود واحد باش ما يجيش مخربق في التلفون */}
+        <div className="space-y-16 border-t border-gray-100 pt-16">
           {sections.map((section, index) => (
-            <section key={index} className="border-t border-gray-100 pt-8">
+            <section key={index}>
               <h2 className="text-sm font-bold text-black uppercase mb-6 tracking-widest">
                 {section.title}
               </h2>
-              <p className="text-gray-500 text-sm leading-relaxed font-light">
+              <p className="text-gray-500 text-base leading-relaxed font-light whitespace-pre-line">
                 {section.content}
               </p>
             </section>
           ))}
         </div>
 
-        {/* الجزء التحتاني ديال التواصل */}
+        {/* الخاتمة مع الإيمايل */}
         <div className="mt-32 pt-12 border-t border-black">
           <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-            <p className="text-gray-400 text-xs max-w-md">
-              By accessing this platform, you acknowledge that you have read and agree to our strict Return & Refund Policy. All digital access is considered delivered upon purchase.
+            <p className="text-gray-400 text-xs max-w-md italic">
+              Last Updated: {lastUpdated}. By purchasing, you agree to these terms in full.
             </p>
             <div className="text-right">
-              <p className="text-[10px] uppercase text-gray-400 mb-2">Legal Support</p>
+              <p className="text-[10px] uppercase text-gray-400 mb-2 font-bold">Billing Support</p>
               <a href="mailto:support@universityoftradingma.com" className="text-black font-bold hover:underline">
                 support@universityoftradingma.com
               </a>
