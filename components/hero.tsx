@@ -176,7 +176,7 @@ export default function Hero({ isLoaded = true }) {
                 repeat: Infinity,
                 ease: "linear",
               }}
-            /> }
+            /> 
              <motion.div
               className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent"
               animate={{
