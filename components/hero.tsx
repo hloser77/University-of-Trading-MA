@@ -61,7 +61,7 @@ export default function Hero({ isLoaded = true }) {
     }
   }, [isLoaded, controls])
 
-   Animation variants - Fixed typing issues
+// Animation variants - Fixed typing issues
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
