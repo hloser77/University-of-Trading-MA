@@ -6,36 +6,41 @@ import Footer from "@/components/footer";
 export default function TermsOfService() {
   const sections = [
     {
-      title: "Comprehensive Financial & Educational Disclaimer",
+      title: "COMPREHENSIVE FINANCIAL & EDUCATIONAL DISCLAIMER",
       content: `
 Educational Purpose Only: All materials, including but not limited to "Daily Trade Ideas," "Weekly Forecasts," and market analysis, are provided strictly for pedagogical and informational purposes.
+
 Non-Advisory Status: U.T.M and its affiliates are not registered financial advisors, brokers, or fiduciaries. Nothing shared within the platform constitutes professional investment, tax, or legal advice.
+
 Assumption of Risk: Trading Forex, Futures, and other financial instruments involves a high degree of risk and substantial capital exposure. You acknowledge that market participation may result in the partial or total loss of your capital.
+
 No Performance Guarantees: U.T.M makes no warranties regarding specific profit outcomes or success rates. Individual trading results are contingent upon personal execution, psychological discipline, and independent risk management.
       `,
     },
 
     {
-      title: "Intellectual Property: The (Hloser Model) & Content Protection",
+      title: "INTELLECTUAL PROPERTY & PROPRIETARY RIGHTS",
       content: `
-Ownership: All materials, including the Hloser Model, How-To video series, strategy breakdowns, and forecast videos, are the exclusive intellectual property of University of Trading-MA.
+Ownership: The "Hloser Model", all instructional video series, strategy blueprints, and proprietary algorithms are the exclusive intellectual property of University of Trading-MA.
 
-Limited License: Upon payment, you are granted a single, non-transferable license to view content for personal educational use only.
+Limited Personal License: Upon successful payment, users are granted a single, non-exclusive, non-transferable, and revocable license for personal educational use only.
 
-Strict Prohibitions: Recording, downloading, screenshotting, or sharing any proprietary content is strictly forbidden.
+Strict Prohibitions: Any attempt to record, download, screenshot, redistribute, or reverse-engineer the Hloser Model or any proprietary content is strictly forbidden.
 
-Consequences: Any violation will result in immediate permanent ban without refund and may lead to legal action.
+Enforcement: Unauthorized dissemination of intellectual property will result in an immediate, permanent ban without refund, and U.T.M reserves the right to pursue civil and criminal legal action for damages.
       `,
     },
 
     {
-      title: "Subscription, Payments, & Strict Non-Refundable Policy",
+      title: "PAYMENTS, SUBSCRIPTIONS, & IRREVOCABLE NO-REFUND POLICY",
       content: `
-Instant Access: Our service provides immediate access to digital goods (videos, chat, market analysis).
+Digital Goods Delivery: Our services provide immediate and full access to digital assets, including the Hloser Model, private chat servers, and market analysis frameworks.
 
-Strict No-Refund Policy: Due to the digital nature of our products, all sales are final. No refunds will be issued under any circumstances.
+Strict Final Sale: Due to the intangible and irreversible nature of digital content, all sales are final. No refunds, partial or full, will be issued under any circumstances, including dissatisfaction or lack of use.
 
-Cancellation: You may cancel at any time to prevent future billing. Access remains until the end of your billing cycle.
+Third-Party Processing: All financial transactions are secured and processed exclusively by Whop. U.T.M does not store, host, or have access to your sensitive banking data or credit card details.
+
+Automatic Renewal: Subscriptions renew automatically unless a cancellation request is processed via the user dashboard at least 3 days prior to the billing date. No refunds will be granted for processed renewals.
       `,
     },
 
