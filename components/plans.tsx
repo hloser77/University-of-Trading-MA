@@ -267,12 +267,12 @@ export default function PlansSection() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Private Community", desc: "24/7 access to a network of serious traders and professionals" },
-              { title: "Daily Trade Ideas", desc: "Get exclusive daily videos with high-probability ICT setups and ideas" },
-              { title: "Weekly Forecast", desc: "Comprehensive weekend market outlooks to prepare for the week ahead" },
-              { title: "Video Library", desc: "Step-by-step training on market frameworks and advanced strategy execution" },
-              { title: "Risk Management", desc: "Learn how to protect your capital and manage trades like a funded pro" },
-              { title: "Priority Support", desc: "Direct access to mentors to answer your questions and refine your edge" },
+              { title: "Private Community", desc: "Join a high-caliber network of professional traders. Surround yourself with a serious community focused on growth, real-time collaboration, and shared success." },
+              { title: "Daily ICT Execution", desc: "Gain an unfair advantage with exclusive daily breakdowns. We identify high-probability ICT setups, liquidity pools, and institutional order flow so you know exactly where the market is headed." },
+              { title: "The Weekly Playbook", desc: "Strategic weekend analysis to map out the upcoming week. Identify key HTF (Higher Time Frame) levels and bias before the London open on Monday." },
+              { title: "The Masterclass Vault", desc: "Instant access to our full curriculum. From ICT core essentials to advanced Hloser Model execution—everything you need to build a mechanical trading system." },
+              { title: "Capital Preservation", desc: "Master the math behind the money. Learn the exact risk-management protocols used by 7-figure funded traders to protect capital and ensure long-term survival." },
+              { title: "Direct Mentorship", desc: "No more guessing. Get direct, priority access to mentors to audit your trades, answer your questions, and bridge the gap between theory and consistent profits." },
             ].map((item, index) => (
               <div
                 key={item.title}
