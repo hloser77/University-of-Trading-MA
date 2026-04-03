@@ -9,7 +9,7 @@ export default function RefundPolicy() {
       title: "1. IRREVOCABLE NO-REFUND POLICY",
       content: `University of Trading-MA ("U.T.M") operates under a strict, non-negotiable No-Refund Policy.
       
-This applies to all membership tiers: Monthly ($150), Quarterly ($133/mo), and Yearly ($125/mo). 
+This applies to all membership tiers: Monthly ($150), Quarterly ($400), and Yearly ($1500). 
 
 Due to the digital nature of the 'Hloser Model' and immediate delivery of proprietary trading strategies, all sales are final once access is granted. We do not offer pro-rated refunds or credit for unused subscription time.`
     },
