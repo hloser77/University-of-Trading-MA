@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
 
           <div className="mb-8 bg-gray-50 border border-gray-200 p-6 rounded-lg">
             <p className="text-base text-gray-700">
-              By accessing or using U.T.M, you acknowledge and accept this Privacy Policy.
+              By accessing or using U.T.M, you acknowledge and accept this Privacy Policy.(Last Updated: April 3, 2026)
             </p>
           </div>
 
