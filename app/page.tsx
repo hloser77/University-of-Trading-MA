@@ -9,7 +9,8 @@ import Testimonials from "@/components/testimonials"
 import FAQ from "@/components/faq"
 import Footer from "@/components/footer"
 import CertificatesCarousel from "@/components/certificates-carousel"
-import Integrations from "@/integrations"  
+import Integrations from "@/integrations"
+import PromoPopup from "@/components/promo-popup"
 export default function Home() {
 
   
@@ -19,6 +20,7 @@ export default function Home() {
         <main className="min-h-screen bg-background">
           <Header />
           <Hero  />
+          <PromoPopup />
           <Integrations />
           {/* <MentorsSection /> */}
           <Process />
