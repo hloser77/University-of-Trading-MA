@@ -22,28 +22,30 @@ You are solely responsible for managing your subscription lifecycle. To avoid fu
 U.T.M is not liable for forgotten renewals or failure to cancel in time.`
     },
     {
-      title: "3. LIFETIME MEMBERSHIPS",
-      content: `A lifetime membership is a one-time purchase providing ongoing access. Because digital content cannot be returned once provided, all lifetime sales are final and non-refundable. 
+      title: "3. DIGITAL ASSET CONSUMPTION (THE 'HLOSER' PROTOCOL)",
+      content: `Our services consist of intangible, digital assets including video masterclasses, daily forecasts, and private ecosystem access. 
 
-U.T.M reserves the right to evolve the platform features over time. For questions regarding lifetime access, reach out to support@universityoftradingma.com.`
+In accordance with international digital trade standards, once the unique access key is utilized or the content is viewed, the service is deemed 'fully performed'.
+
+This immediate consumption constitutes a waiver of any statutory 'right of withdrawal' or cooling-off period.`
     },
     {
-      title: "4. THE 'CONSUMED ACCESS' DOCTRINE",
-      content: `In accordance with digital trade standards, once the unique digital key (Whop/Discord access) is utilized, the service is deemed 'fully performed.' 
+      title: "4. ZERO-TOLERANCE CHARGEBACK POLICY",
+      content: `Initiating a chargeback or payment dispute for a delivered and active membership is a direct violation of these terms. U.T.M utilizes advanced IP-logging and timestamped session tracking to provide payment processors with comprehensive proof of service delivery.
 
-By accessing our proprietary masterclasses or community, the user waives any statutory right of withdrawal. For more details on this protocol, email support@universityoftradingma.com.`
+Any user who initiates a fraudulent dispute will be permanently banned from the U.T.M platform. For billing discrepancies, you must contact support@universityoftradingma.com before contacting your bank.`
     },
     {
-      title: "5. CHARGEBACKS & DISPUTES",
-      content: `Initiating a chargeback for a delivered purchase violates this policy. U.T.M provides timestamped access logs to payment processors to contest invalid disputes. 
+      title: "5. SUBSCRIPTION UPGRADES & MODIFICATIONS",
+      content: `If you choose to upgrade from a Monthly to a Yearly plan, the new billing rate will apply immediately. Previous payments for the current month are non-refundable and cannot be applied as a discount towards the upgrade unless specified by a promotional offer. 
 
-Filing a fraudulent chargeback will result in permanent removal from the platform. Please resolve billing issues directly with support@universityoftradingma.com before contacting your bank.`
+U.T.M reserves the right to modify pricing or service features at its discretion to maintain educational standards.`
     },
     {
-      title: "6. SINGLE EXCEPTION (DUPLICATE CHARGE)",
-      content: `Refunds are issued ONLY for verified systemic duplicate charges (billed twice for the same product at the same time). 
+      title: "6. THE SINGLE TECHNICAL EXCEPTION",
+      content: `The only circumstance under which a refund may be considered is a verified systemic duplicate charge. This is defined as the billing system charging the same user twice for the exact same product and billing period due to a technical error. 
 
-All duplicate charge claims must be submitted to support@universityoftradingma.com within 7 days. Verified duplicates will be refunded to the original payment method.`
+Claims for duplicate charges must be submitted to support@universityoftradingma.com within 7 days of the transaction.`
     }
   ];
 
