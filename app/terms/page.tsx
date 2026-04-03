@@ -91,7 +91,8 @@ These Terms and any disputes arising therefrom shall be governed by and construe
 
           <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
             <p className="text-base text-red-800 font-medium">
-              ⚠️ Important: By using U.T.M, you confirm that you have read, understood, and accepted these Terms.(Last Updated: April 3, 2026)
+              ⚠️ Important: By using U.T.M, you confirm that you have read, understood, and accepted these Terms.
+              (Last Updated: April 3, 2026)
             </p>
           </div>
 
