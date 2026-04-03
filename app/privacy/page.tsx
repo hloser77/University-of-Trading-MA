@@ -17,57 +17,60 @@ interface Section {
 export default function PrivacyPolicy() {
   const sections: Section[] = [
     {
-      title: "Information Collection & Zero Financial Storage Mandate",
-      content: `To ensure maximum security for our members, we adhere to a strict policy regarding the types of data we handle:`,
+      title: "DATA COLLECTION & MINIMALIST ARCHITECTURE",
+      content: `To ensure maximum security and mitigate risks, U.T.M adheres to a strict policy of data minimization:`,
       subsections: [
         {
           title: "Personal Identification:",
-          content: `We collect basic information such as your name, email address, and Discord/Whop username solely to manage your membership and provide access to the Hloser Model and our educational videos.`,
+          content: `We collect basic profile data such as your name, email address, and Discord/Whop usernames exclusively to manage your membership and grant access to proprietary content like the Hloser Model.`,
         },
         {
-          title: "Zero Access to Banking Data (Critical):",
-          content: `U.T.M does not store, process, host, or have any access to your sensitive financial information. All payment transactions, including credit card details, CVV codes, and billing addresses, are handled exclusively by our secure third-party processor, Whop. Your financial interaction is governed by Whop’s independent Privacy Policy and security protocols.`,
+          title: "Zero Financial Storage Mandate (Critical):",
+          content: `U.T.M does not store, process, host, or have any access to your sensitive financial information, including credit card numbers, CVV codes, or billing addresses. All financial interactions are handled securely by Whop, our authorized third-party processor, and are governed by their independent security protocols.`,
         },
         {
-          title: "Automated Technical Data:",
-          content: `We collect limited technical data (such as IP addresses, device types, and operating systems) strictly for analytics and platform security, including prevention of unauthorized account sharing.`,
+          title: "Automated Technical Metadata:",
+          content: `We collect limited technical data, including IP addresses, device identifiers, and operating system types. This information is used strictly for platform security and to prevent unauthorized account sharing or intellectual property theft.`,
         },
       ],
     },
 
     {
-      title: "Strategic Use of Information",
-      content: `We use collected data for operational excellence and protection of intellectual property:
-
-• Membership Management: Verify active subscriptions and assign Discord roles.
-• Service Updates: Notify users of changes to models, forecasts, or Terms.
-• IP Protection: Monitor fraud or unauthorized redistribution of content.
-• Legal Compliance: Defend against disputes, chargebacks, or abuse.`,
+      title: "STRATEGIC DATA UTILIZATION",
+      content: `We utilize collected information solely for operational excellence and the protection of our educational assets:
+      
+• Membership Management: Verifying active subscriptions and assigning appropriate roles within our private Discord community.
+• Service Updates: Notifying users of critical changes to market models, forecasts, or amendments to our legal terms.
+• Intellectual Property Protection: Monitoring for fraudulent activities, automated scraping, or unauthorized redistribution of our proprietary content.
+• Legal Compliance: Defending against potential disputes, chargebacks, or violations of our Terms of Service.`,
     },
 
     {
-      title: "Non-Disclosure & Data Sharing Policy",
-      content: `We do not sell, rent, or trade your personal data. Limited sharing occurs only with:
+      title: "NON-DISCLOSURE & DATA SHARING LIMITATIONS",
+      content: `U.T.M operates a zero-tolerance policy regarding the sale, rental, or trading of your personal data. Limited data sharing occurs only with the following entities:
 
-• Whop & Stripe: Payment metadata required to manage subscriptions.
-• Legal Authorities: Only when legally required or protecting intellectual property.`,
+• Whop & Stripe: Essential payment metadata required for subscription lifecycle management.
+• Legal Authorities: Disclosure occurs only when mandated by law or when necessary to protect our intellectual property rights from infringement.`,
     },
 
     {
-      title: "Children’s Privacy & Age Restrictions",
-      content: `U.T.M is intended only for individuals aged 18 or older. We do not knowingly collect data from minors.`,
+      title: "SECURITY PROTOCOLS & USER OBLIGATIONS",
+      content: `While we leverage the institutional-grade security of Whop for financial transactions, users are responsible for maintaining the confidentiality of their own account credentials. Unauthorized account access due to user negligence is not the responsibility of U.T.M.`,
     },
 
     {
-      title: "Governing Law and Jurisdiction",
-      content: `This Privacy Policy is governed by the laws of Morocco and international digital commerce standards. Users must ensure compliance with their local regulations.`,
+      title: "AGE RESTRICTIONS & COMPLIANCE",
+      content: `U.T.M is strictly intended for individuals aged 18 or older. We do not knowingly collect or solicit data from minors. If we discover that a minor has provided us with personal information, we will terminate the account and purge the data immediately.`,
     },
 
     {
-      title: "Changes to This Privacy Policy",
-      content: `We may update this Privacy Policy at any time.
+      title: "JURISDICTION & GOVERNING LAW",
+      content: `This Privacy Policy is governed by the laws of the Kingdom of Morocco and is aligned with international digital commerce standards. Users accessing our services from other jurisdictions are responsible for ensuring compliance with their respective local regulations.`,
+    },
 
-Any changes will be posted on this page. Continued use of U.T.M constitutes acceptance of the updated policy.`,
+    {
+      title: "AMENDMENTS & UPDATES",
+      content: `U.T.M reserves the right to modify this Privacy Policy at any time to reflect changes in our services or legal obligations. Continued use of the platform after any modifications constitutes an irrevocable acceptance of the updated policy.`,
     },
   ]
 
@@ -125,7 +128,7 @@ Any changes will be posted on this page. Continued use of U.T.M constitutes acce
             </h2>
 
             <p className="text-base text-gray-700">
-              For privacy-related questions, contact:
+              For inquiries regarding your data, contact:
               {" "}
               <a
                 href="mailto:support@universityoftradingma.com"
