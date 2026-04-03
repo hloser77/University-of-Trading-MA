@@ -86,6 +86,7 @@ export default function PrivacyPolicy() {
           </h1>
 
           <p className="text-base text-gray-600 mb-8">
+            Last Updated: April 3, 2026
             University of Trading-MA ("U.T.M", "we", "us", or "our") is dedicated to providing a secure educational environment. By subscribing via Whop or participating in Discord, you agree to this Privacy Policy.
           </p>
 
