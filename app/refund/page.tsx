@@ -4,80 +4,95 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 export default function RefundPolicy() {
-  const lastUpdated = "April 3, 2026";
-
   const sections = [
     {
       title: "1. ACQUISITION OF DIGITAL PROPRIETARY ASSETS",
-      content: `Upon the successful processing of a transaction, University of Trading-MA ("U.T.M") provides immediate, irrevocable, and comprehensive access to its proprietary digital ecosystem. This ecosystem includes, but is not limited to, the Hloser Model, high-frequency video masterclasses, strategic blueprints, and real-time community engagement via Discord.`
+      content: `Upon the successful processing of a transaction, University of Trading-MA ("U.T.M") provides immediate, irrevocable, and comprehensive access to its proprietary digital ecosystem. This ecosystem includes, but is not limited to, the Hloser Model, high-frequency video masterclasses, strategic blueprints, and real-time community engagement via Discord. 
+
+By completing the checkout process, the user acknowledges and warrants that the product being acquired is a digital, intangible good. Under international digital commerce standards and the laws of the Kingdom of Morocco, the delivery of such assets occurs instantaneously at the moment of account activation. Therefore, the traditional concept of 'returns' is technically and legally inapplicable, as the digital value cannot be restored to its original unconsumed state.`
     },
     {
       title: "2. STRICT ADHERENCE TO THE NO-REFUND MANDATE",
-      content: `U.T.M operates under a rigid 'Strict No-Refund' policy for all membership tiers. All sales are final[cite: 116, 162, 180]. Digital products cannot be returned, unconsumed, or revoked[cite: 179]. Refunds are not provided under any circumstance after access is delivered[cite: 180].`
+      content: `U.T.M operates under a rigid 'Strict No-Refund' policy for all membership tiers. This policy is foundational to our operational integrity and is designed to protect our intellectual property from exploitation. 
+
+There are NO exceptions to this mandate. This lack of exception applies regardless of:
+• The volume of content accessed or the duration of login sessions.
+• Subjective dissatisfaction with market outcomes or trading performance.
+• Technical limitations or software incompatibilities on the user's end.
+• Claims of 'accidental purchase' or 'buyer’s remorse'.
+• Failure to achieve specific profit targets or funded account benchmarks.`
     },
     {
       title: "3. AUTOMATED RENEWAL & BILLING OBLIGATIONS",
-      content: `Subscriptions renew automatically unless canceled at least 3 days before the next billing date[cite: 167]. Users are solely responsible for managing and cancelling their subscriptions via the Whop dashboard[cite: 183, 199]. No refunds will be granted for processed renewals[cite: 117, 168].`
+      content: `The user accepts full responsibility for the oversight and management of their subscription lifecycle. All memberships are configured for automatic renewal by default. 
+
+Notice of Cancellation: To terminate the billing cycle, users must execute a cancellation request through the Whop dashboard no later than seventy-two (72) hours prior to the scheduled rebilling event. 
+
+Retroactive Refund Requests: Requests for refunds pertaining to automated renewals that have already been processed will be summarily denied. U.T.M is under no legal obligation to issue credits for users who fail to manage their subscription settings before the billing deadline.`
     },
     {
       title: "4. THE 'CONSUMED ACCESS' DOCTRINE",
-      content: `In accordance with the digital 'Consumed Access' doctrine, once access is granted to our digital goods, the service is considered fully performed[cite: 115, 179]. By subscribing, you waive any right to a refund under consumer protection laws for digital content[cite: 164].`
+      content: `In accordance with the digital 'Consumed Access' doctrine, once the unique digital key (Whop/Discord access) is utilized to enter the private domain of U.T.M, the service is deemed 'fully performed.' By accessing even a single proprietary video or receiving a single market forecast, the user waives any statutory right of withdrawal or cooling-off period. This waiver is a mandatory condition of the purchase agreement.`
     },
     {
       title: "5. FRAUDULENT CHARGEBACKS & REVERSAL PROTOCOLS",
-      content: `Initiating a chargeback for a valid and delivered purchase violates this policy[cite: 192]. We provide timestamped access logs and delivery confirmations to payment processors to contest invalid disputes[cite: 193]. Filing a chargeback may result in permanent removal from the U.T.M platform[cite: 194].`
+      content: `Any attempt to bypass this Policy by initiating a fraudulent chargeback through a banking institution constitutes a material breach of our Terms of Service. 
+
+Enforcement Actions: U.T.M monitors all user interaction via IP logging. In the event of a dispute, we will provide the payment processor with granular evidence of service consumption. Any user attempting a chargeback will be permanently de-platformed and their details reported to fraud prevention databases.`
     },
     {
       title: "6. VERIFIED DUPLICATE TRANSACTION EXCEPTION",
-      content: `The sole exception is a verified duplicate charge for the same product purchased unintentionally within the same billing period[cite: 195]. A duplicate charge means the customer was billed twice for the identical membership without placing a second order[cite: 196]. Both transactions must be verifiable in our billing system[cite: 197].`
+      content: `The sole and exclusive circumstance under which a refund may be contemplated is in the event of a verified systemic duplicate charge. This is strictly defined as an occurrence where the internal billing architecture processes two identical charges for the same product, at the same time, for the same user account. No other grievances or claims will qualify for this exception.`
     }
   ];
 
   return (
-    <>
+    <div className="bg-white min-h-screen">
       <Header />
-      <main className="min-h-screen bg-white pt-32 pb-20 px-6 lg:px-16">
-        <div className="max-w-4xl mx-auto">
-          <div className="border-b border-gray-200 pb-8 mb-12 text-center">
-            <h1 className="text-5xl font-black text-gray-900 mb-4 tracking-tighter uppercase">
-              Return & Refund Policy
-            </h1>
-            <p className="text-gray-500 font-medium tracking-widest text-xs">
-              DOCUMENT ID: UTM-LGL-2026-REF | LAST REVISION: {lastUpdated}
+      
+      <main className="max-w-[1200px] mx-auto pt-40 pb-24 px-6 md:px-12">
+        {/* العناوين الكبار بحال لي في الصورة */}
+        <div className="mb-20">
+          <p className="text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-6 font-medium">
+            Legal Documentation — 2026
+          </p>
+          <h1 className="text-6xl md:text-8xl font-bold text-black tracking-tighter leading-[0.9]">
+            Return <br /> 
+            <span className="text-gray-200">Policy</span>
+          </h1>
+        </div>
+
+        {/* تقسيم الهضرة بنفس ستايل الصورة */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-16">
+          {sections.map((section, index) => (
+            <section key={index} className="border-t border-gray-100 pt-8">
+              <h2 className="text-sm font-bold text-black uppercase mb-6 tracking-widest">
+                {section.title}
+              </h2>
+              <p className="text-gray-500 text-sm leading-relaxed font-light">
+                {section.content}
+              </p>
+            </section>
+          ))}
+        </div>
+
+        {/* الجزء التحتاني ديال التواصل */}
+        <div className="mt-32 pt-12 border-t border-black">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-8">
+            <p className="text-gray-400 text-xs max-w-md">
+              By accessing this platform, you acknowledge that you have read and agree to our strict Return & Refund Policy. All digital access is considered delivered upon purchase.
             </p>
+            <div className="text-right">
+              <p className="text-[10px] uppercase text-gray-400 mb-2">Legal Support</p>
+              <a href="mailto:support@universityoftradingma.com" className="text-black font-bold hover:underline">
+                support@universityoftradingma.com
+              </a>
+            </div>
           </div>
-
-          <div className="space-y-12">
-            {sections.map((section, index) => (
-              <section key={index} className="group">
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="bg-gray-900 text-white text-[10px] font-bold px-2 py-1 uppercase">UTM Legal</span>
-                  <h2 className="text-xl font-bold text-gray-900 tracking-tight uppercase">
-                    {section.title}
-                  </h2>
-                </div>
-                <div className="p-6 bg-gray-50 border border-gray-100 rounded-lg group-hover:border-gray-300 transition-colors">
-                  <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line font-light">
-                    {section.content}
-                  </p>
-                </div>
-              </section>
-            ))}
-          </div>
-
-          <div className="mt-16 p-10 bg-red-50 border-2 border-red-100 rounded-xl">
-            <h3 className="text-red-900 font-bold text-lg mb-2 italic uppercase text-sm tracking-wider">Legal Acknowledgment</h3>
-            <p className="text-red-800 text-sm leading-relaxed">
-              By completing your purchase, you confirm that you have read and understood this Return and Refund Policy[cite: 199]. You acknowledge that digital access is delivered immediately and agree that all sales are final[cite: 199].
-            </p>
-          </div>
-
-          <footer className="mt-12 text-center text-gray-400 text-[10px] uppercase tracking-widest">
-            © 2026 University of Trading-MA. All intellectual rights reserved.
-          </footer>
         </div>
       </main>
+
       <Footer />
-    </>
+    </div>
   );
 }
