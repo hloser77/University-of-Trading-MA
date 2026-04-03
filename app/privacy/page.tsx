@@ -25,7 +25,7 @@ Zero-Data Policy: U.T.M does not store, host, or have access to your credit card
 • Granting and managing access to the Hloser Model and private Discord channels.
 • Communicating critical market forecasts and platform updates.
 • Preventing unauthorized account sharing and protecting our intellectual property.
-• Complying with legal obligations within the jurisdiction of the Kingdom of Morocco.`
+• Complying with international digital trade standards and legal obligations.`
     },
     {
       title: "4. ANALYTICS & SECURITY TRACKING",
