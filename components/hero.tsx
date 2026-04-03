@@ -164,7 +164,7 @@ export default function Hero({ isLoaded = true }) {
           transition={{ duration: 0.6, delay: 2.0 }}
           className="mb-12 max-w-7xl mx-auto"
         >
-          <div className="relative overflow-hidden border border-accent/20 rounded-xl py-3 text-center bg-white/50 backdrop-blur-sm"> */}
+          <div className="relative overflow-hidden border border-accent/20 rounded-xl py-3 text-center bg-white/50 backdrop-blur-sm"> }
             {/* Animated gradient background */}
             { <motion.div
               className="absolute inset-0 bg-gradient-to-r from-transparent via-accent/10 to-transparent"
@@ -176,7 +176,7 @@ export default function Hero({ isLoaded = true }) {
                 repeat: Infinity,
                 ease: "linear",
               }}
-            /> */}
+            /> }
             { <motion.div
               className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent"
               animate={{
@@ -187,7 +187,7 @@ export default function Hero({ isLoaded = true }) {
                 repeat: Infinity,
                 ease: "linear",
               }}
-            /> */}
+            /> }
           
           {/* Auto-scrolling text container */}
           { <div className="relative z-10 overflow-hidden">
@@ -208,7 +208,7 @@ export default function Hero({ isLoaded = true }) {
             </motion.div>
           </div>
         </div>
-      </motion.div> */}
+      </motion.div> }
 
       {/* Animated Background Elements */}
       <motion.div
