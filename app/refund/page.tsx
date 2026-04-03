@@ -16,6 +16,7 @@ By completing the checkout process, the user acknowledges and warrants that the 
       content: `U.T.M operates under a rigid 'Strict No-Refund' policy for all membership tiers. This policy is foundational to our operational integrity and is designed to protect our intellectual property from exploitation. 
 
 There are NO exceptions to this mandate. This lack of exception applies regardless of:
+
 • The volume of content accessed or the duration of login sessions.
 • Subjective dissatisfaction with market outcomes or trading performance.
 • Technical limitations or software incompatibilities on the user's end.
