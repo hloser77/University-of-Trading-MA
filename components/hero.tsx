@@ -309,7 +309,7 @@ export default function Hero({ isLoaded = true }) {
             variants={itemVariants}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light"
           >
-            Premium trading education and daily market analysis for traders who demand excellence
+            Master the Markets with the Proprietary Hloser Model. Advanced Education for Professional Traders
           </motion.p>
         </motion.div>
 
@@ -467,7 +467,7 @@ export default function Hero({ isLoaded = true }) {
                   />
                 </div>
                 <p className="text-sm text-gray-600">
-                  Trading Education Expert with years of market experience and proven track record
+                  Architect of the Hloser Model with over a decade of verified market experience
                 </p>
               </motion.div>
 
