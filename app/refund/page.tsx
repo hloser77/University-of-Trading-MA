@@ -7,15 +7,15 @@ export default function RefundPolicy() {
   const sections = [
     {
       title: "1. IRREVOCABLE NO-REFUND POLICY",
-      content: `University of Trading-MA ("U.T.M") operates under a strict No-Refund Policy. All purchases of digital memberships, including the 'Hloser Model' and private ecosystem access, are final once access is granted. 
-
-Because digital goods cannot be returned, unconsumed, or revoked, the full value is considered delivered at the moment of activation. For any inquiries, contact support@universityoftradingma.com.`
+      content: `University of Trading-MA ("U.T.M") operates under a strict, non-negotiable No-Refund Policy. This applies to all membership tiers: Monthly ($150), Quarterly ($133/mo), and Yearly ($125/mo). Due to the digital nature of the 'Hloser Model' and immediate delivery of proprietary trading strategies, all sales are final once access is granted. We do not offer pro-rated refunds or credit for unused subscription time.`
     },
     {
-      title: "2. USER RESPONSIBILITY & MANAGEMENT",
-      content: `Customers are solely responsible for managing their subscriptions via the Whop dashboard. This includes cancelling before the renewal date and monitoring billing cycles. 
+      title: "2. AUTOMATED RENEWAL & BILLING OBLIGATIONS",
+      content: `By subscribing to any U.T.M plan via Whop, you acknowledge and agree that your subscription will automatically renew at the end of each billing cycle. 
 
-We do not issue refunds for late cancellations, forgotten renewals, or periods of inactivity. If you face technical issues, notify support@universityoftradingma.com immediately.`
+You are solely responsible for managing your subscription lifecycle. To avoid future charges, cancellations must be processed through your Whop dashboard at least 48 hours before the renewal date.
+
+U.T.M is not liable for forgotten renewals or failure to cancel in time.`
     },
     {
       title: "3. LIFETIME MEMBERSHIPS",
