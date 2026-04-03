@@ -3,73 +3,46 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-export default function TermsOfService() {
+export default function RefundPolicy() {
   const sections = [
     {
-      title: "COMPREHENSIVE FINANCIAL & EDUCATIONAL DISCLAIMER",
+      title: "IRREVOCABLE NO-REFUND POLICY",
       content: `
-Educational Purpose Only: All materials, including but not limited to "Daily Trade Ideas," "Weekly Forecasts," and market analysis, are provided strictly for pedagogical and informational purposes.
+Due to the proprietary and digital nature of the services provided by University of Trading-MA ("U.T.M"), we enforce a strict No-Refund Policy. 
 
-Non-Advisory Status: U.T.M and its affiliates are not registered financial advisors, brokers, or fiduciaries. Nothing shared within the platform constitutes professional investment, tax, or legal advice.
+Digital Goods Consumption: Our educational materials, including the "Hloser Model," video Masterclasses, and private Discord access, are classified as digital goods. Access is granted immediately upon successful payment. 
 
-Assumption of Risk: Trading Forex, Futures, and other financial instruments involves a high degree of risk and substantial capital exposure. You acknowledge that market participation may result in the partial or total loss of your capital.
-
-No Performance Guarantees: U.T.M makes no warranties regarding specific profit outcomes or success rates. Individual trading results are contingent upon personal execution, psychological discipline, and independent risk management.
+Immediate Delivery Waiver: By subscribing, you explicitly acknowledge that you receive immediate access to our digital assets. This immediate delivery constitutes a full execution of the service and, under international digital commerce standards and Moroccan law, waives any "right of withdrawal" or cooling-off period.
       `,
     },
-
     {
-      title: "INTELLECTUAL PROPERTY & PROPRIETARY RIGHTS",
+      title: "SUBSCRIPTION CANCELLATIONS",
       content: `
-Ownership: The "Hloser Model", all instructional video series, strategy blueprints, and proprietary algorithms are the exclusive intellectual property of University of Trading-MA.
+You have the right to cancel your subscription at any time to prevent future billing. 
 
-Limited Personal License: Upon successful payment, users are granted a single, non-exclusive, non-transferable, and revocable license for personal educational use only.
+Cancellation Procedure: All cancellations must be processed via your user dashboard on Whop. 
 
-Strict Prohibitions: Any attempt to record, download, screenshot, redistribute, or reverse-engineer the Hloser Model or any proprietary content is strictly forbidden.
+Notice Period: To avoid being charged for the next billing cycle, you must cancel your subscription at least 3 days prior to the scheduled billing date. 
 
-Enforcement: Unauthorized dissemination of intellectual property will result in an immediate, permanent ban without refund, and U.T.M reserves the right to pursue civil and criminal legal action for damages.
+Access Post-Cancellation: Upon cancellation, you will continue to have access to the platform until the end of your current paid billing period. No partial or prorated refunds will be issued for unused time.
       `,
     },
-
     {
-      title: "PAYMENTS, SUBSCRIPTIONS, & IRREVOCABLE NO-REFUND POLICY",
+      title: "CHARGEBACKS & DISPUTES",
       content: `
-Digital Goods Delivery: Our services provide immediate and full access to digital assets, including the Hloser Model, private chat servers, and market analysis frameworks.
+U.T.M maintains a zero-tolerance policy regarding fraudulent chargebacks. 
 
-Strict Final Sale: Due to the intangible and irreversible nature of digital content, all sales are final. No refunds, partial or full, will be issued under any circumstances, including dissatisfaction or lack of use.
+Protection of Intellectual Property: Any attempt to initiate a chargeback for services already delivered and accessed will result in an immediate and permanent ban from all U.T.M platforms and communities. 
 
-Third-Party Processing: All financial transactions are secured and processed exclusively by Whop. U.T.M does not store, host, or have access to your sensitive banking data or credit card details.
-
-Automatic Renewal: Subscriptions renew automatically unless a cancellation request is processed via the user dashboard at least 3 days prior to the billing date. No refunds will be granted for processed renewals.
+Evidence Submission: In the event of a dispute, U.T.M reserves the right to provide payment processors (Whop/Stripe) with comprehensive access logs, IP addresses, and signed acceptance of these terms as evidence of service delivery.
       `,
     },
-
     {
-      title: "COMMUNITY CONDUCT & ACCOUNT INTEGRITY",
+      title: "PAYMENT PROCESSING & SECURITY",
       content: `
-Professionalism: Users must maintain professional conduct. Harassment, spamming, or unauthorized promotion of external services will lead to immediate removal.
+All financial transactions are handled exclusively by our authorized third-party processor, Whop. 
 
-Anti-Sharing Protocol: Sharing Whop logins, Discord credentials, or Telegram invite links is strictly prohibited. Our system monitors IP access; unauthorized account sharing will result in an automatic and permanent ban.
-      `,
-    },
-
-    {
-      title: "MANDATORY NON-DISCLOSURE AGREEMENT (NDA)",
-      content: `
-By joining U.T.M, you agree to a strict duty of confidentiality. You are legally bound not to disclose internal strategies, entry models, or private community discussions to any third party. Breach of this confidentiality constitutes a material violation of this agreement.
-      `,
-    },
-
-    {
-      title: "LIMITATION OF LIABILITY & INDEMNIFICATION",
-      content: `
-U.T.M shall not be held liable for any direct, indirect, or incidental losses resulting from the use of our educational materials. You agree to indemnify and hold harmless U.T.M from any claims, damages, or expenses arising from your trading activities or breach of these Terms.      `,
-    },
-
-    {
-      title: "GOVERNING LAW & JURISDICTION",
-      content: `
-These Terms and any disputes arising therefrom shall be governed by and construed in accordance with the Laws of the Kingdom of Morocco and international digital commerce standards. Any legal proceedings shall be handled exclusively by the competent courts within the provider's jurisdiction.
+Data Security: U.T.M does not store, host, or process your sensitive banking or credit card details. Any issues related to payment failures or billing errors must be addressed through Whop's support infrastructure.
       `,
     },
   ];
@@ -80,18 +53,18 @@ These Terms and any disputes arising therefrom shall be governed by and construe
 
       <main className="min-h-screen bg-white pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-
+          
           <h1 className="text-4xl font-bold mb-6 text-gray-900">
-            Terms of Service
+            Refund Policy
           </h1>
 
           <p className="text-base text-gray-600 mb-8">
-            By accessing the platform provided by University of Trading-MA ("U.T.M"), purchasing any subscription, or participating in the private community (Discord/Whop), you hereby enter into a legally binding contract. You acknowledge that you have read, understood, and voluntarily accepted these Terms in their entirety. If you do not agree with any specific provision, you are strictly prohibited from using the service and must terminate your access immediately.
+            This Refund Policy outlines the terms and conditions regarding payments, cancellations, and the non-refundable nature of the digital services provided by University of Trading-MA ("U.T.M"). By purchasing a subscription, you agree to be bound by this policy in its entirety.
           </p>
 
-          <div className="mb-8 bg-red-50 border border-red-200 p-6 rounded-lg">
-            <p className="text-base text-red-800 font-medium">
-              ⚠️ Important: By using U.T.M, you confirm that you have read, understood, and accepted these Terms.
+          <div className="mb-8 bg-blue-50 border border-blue-200 p-6 rounded-lg">
+            <p className="text-base text-blue-800 font-medium">
+              ℹ️ Notice: All sales are final. Please review our policy carefully before completing your purchase.
               (Last Updated: April 3, 2026)
             </p>
           </div>
@@ -109,10 +82,10 @@ These Terms and any disputes arising therefrom shall be governed by and construe
 
           <div className="mt-12 pt-6 border-t border-gray-200">
             <h2 className="font-semibold text-lg mb-3 text-gray-900">
-              Contact
+              Questions?
             </h2>
             <p className="text-base text-gray-700">
-              For legal inquiries, please contact:
+              If you have any questions regarding our Refund Policy, please contact our support team:
               {" "}
               <a
                 href="mailto:support@universityoftradingma.com"
