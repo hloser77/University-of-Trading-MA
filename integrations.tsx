@@ -21,7 +21,7 @@ const integrations = [
   },
   {
     name: "Telegram",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/512px-Telegram_2019_Logo.svg.png",
+    logo: "https://res.cloudinary.com/dd3dc5oum/image/upload/v1775406259/telegram-5662082_1280_duboqq.webp",
     verified: true,
   },
 ]
