@@ -46,7 +46,7 @@ const plans = [
     link: "https://whop.com/checkout/plan_9QECP47I1cPDR",
     popular: false,
     elite: true,
-    saving: "07 april",
+    saving: "save 11%",
   },
   {
     name: "Yearly",
@@ -68,7 +68,7 @@ const plans = [
     cta: "Unlock Full Access",
     link: "https://whop.com/checkout/plan_44dNex7jUJEGE",
     popular: true,
-    saving: "07 april",
+    saving: "save 17%",
   },
   {
     name: "Free Community",
