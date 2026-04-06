@@ -22,7 +22,7 @@ const plans = [
       { name: "Priority Vip Support", included: false },
     ],
     cta: "Try Starter",
-    link: "https://whop.com/checkout/plan_lVABFbMfRu6EB",
+    link: "https://whop.com/checkout/plan_xDt8crhokMfyM",
     popular: false,
   },
   {
