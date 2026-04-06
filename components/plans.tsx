@@ -196,7 +196,7 @@ export default function PlansSection() {
                           <span
                             className={`text-4xl font-bold ${plan.elite || plan.popular ? "text-accent" : "text-foreground"}`}
                           >
-                            ${plan.price}
+                            £{plan.price}
                           </span>
                           <span className="text-muted-foreground text-sm">{plan.period}</span>
                         </>
