@@ -158,7 +158,8 @@ export default function Hero({ isLoaded = true }) {
     <section id="home" className="relative min-h-screen pt-20 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#dce1e8]/30 to-white overflow-hidden">
       
 {/* Coupon Banner with Auto-Scrolling Marquee */}
-      <motion.div
+     {false && ( 
+     <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
         transition={{ duration: 0.6, delay: 2.0 }}
