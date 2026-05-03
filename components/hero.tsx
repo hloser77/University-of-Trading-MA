@@ -207,9 +207,6 @@ export default function Hero({ isLoaded = true }) {
                 <MarqueeItem key={i} />
               ))}
             </motion.div>
-          </div>
-        </div>
-      </motion.div>
 
       {/* Animated Background Elements */}
       <motion.div
