@@ -17,7 +17,7 @@ import Image from "next/image"
    }
 
    return (
-     <motion.button
+     /*<motion.button
        onClick={handleCopy}
        className="inline-flex items-center gap-2 px-8 py-2 mx-2 text-sm font-semibold rounded-full transition-colors relative group"
        whileHover={{ scale: 1.05, backgroundColor: "rgba(0,0,0,0.05)" }}
@@ -38,7 +38,7 @@ import Image from "next/image"
          </motion.span>
        </span>
        <span className="text-black">– . </span>
-     </motion.button>
+     </motion.button>*/
    )
  }
 
