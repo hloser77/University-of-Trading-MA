@@ -33,7 +33,7 @@ export default function PromoPopup() {
 
   return (
     <AnimatePresence>
-      {isVisible && (
+      {false && isVisible && (
         <>
           {/* Backdrop */}
           <motion.div
