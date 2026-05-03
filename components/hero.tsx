@@ -207,7 +207,7 @@ export default function Hero({ isLoaded = true }) {
                 <MarqueeItem key={i} />
             </motion.div>
             )}
-
+      </div>
       {/* Animated Background Elements */}
       <motion.div
         className="absolute top-20 left-10 w-72 h-72 bg-accent/5 rounded-full blur-3xl"
