@@ -205,8 +205,8 @@ export default function Hero({ isLoaded = true }) {
             >
               {[...Array(10)].map((_, i) => (
                 <MarqueeItem key={i} />
-              ))}
             </motion.div>
+            )}
 
       {/* Animated Background Elements */}
       <motion.div
@@ -488,10 +488,6 @@ export default function Hero({ isLoaded = true }) {
                     delay: 2,
                   }}
                 />
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </motion.div>
 
       </div>
     </section>
