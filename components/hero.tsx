@@ -25,7 +25,7 @@ import Image from "next/image"
        animate={copied ? { backgroundColor: "#dcfce7" } : { backgroundColor: "transparent" }}
      >
        <span className="text-xl">🎉</span>
-       <span className="text-black">ENDING SOON:Save 30% on your first month with code </span>
+       <span className="text-black">. </span>
        <span
          className={`font-bold transition-colors ${copied ? "text-green-600" : "text-blue-600 group-hover:text-blue-700"}`}
        >
@@ -37,7 +37,7 @@ import Image from "next/image"
            {copied ? '"Copied!"' : '"HL"'}
          </motion.span>
        </span>
-       <span className="text-black">– (Valid until Apr 30)</span>
+       <span className="text-black">– . </span>
      </motion.button>
    )
  }
